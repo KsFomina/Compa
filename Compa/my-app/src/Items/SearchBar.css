@@ -1,0 +1,20 @@
+.search-style {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 4vh;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #784fe8;
+    border-radius: 15px 15px 15px 15px;
+    outline: none;
+}

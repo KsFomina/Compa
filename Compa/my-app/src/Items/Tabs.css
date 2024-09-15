@@ -1,0 +1,28 @@
+.tab-style {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+}
+
+.tab-menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: #784fe8;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.tab-tab{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
