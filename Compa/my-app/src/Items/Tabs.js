@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import EventList from './EventList';
 import './Tabs.css';
 
-const tabs =['Профиль','Увлечения','События']
+const tabs =['События','Профиль','Чаты']
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState(0);
@@ -15,7 +15,8 @@ const Tabs = () => {
                     key = {index}
                     style={{
                         backgroundColor: activeTab === index ? '#f7f0ff' : 'white',
-                        cursor: 'pointer', // добавлено для указания курсора на кнопках
+                        textDecoration: activeTab === index ? 'underline' : 'none',
+                        cursor: 'pointer',
                     }}
                     onClick = {() => setActiveTab(index)}
                     >
@@ -24,9 +25,9 @@ const Tabs = () => {
                 ))}
             </div>
             <div className='tab-content'>
-                {activeTab === 0 }
+                {activeTab === 2 }
                 {activeTab === 1 }
-                {activeTab === 2 && <EventList/>}
+                {activeTab === 0 && <EventList/>}
             </div>
         </div>
     );
