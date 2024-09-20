@@ -3,19 +3,51 @@
   "WorkspaceRootPath": "D:\\Github\\Compa\\Compa\\CompaASP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\common\\mappings\\assemblymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\common\\mappings\\assemblymappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\common\\mappings\\imapwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\common\\mappings\\imapwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|d:\\github\\compa\\compa\\compaasp\\compa.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|d:\\github\\compa\\compa\\compaasp\\compa.persistance\\compadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\compadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\interfaces\\iuserdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\interfaces\\iuserdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\compa.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\compa.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|d:\\github\\compa\\compa\\compaasp\\compa.persistance\\entitytypeconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\entitytypeconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|d:\\github\\compa\\compa\\compaasp\\compa.persistance\\compa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\compa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|d:\\github\\compa\\compa\\compaasp\\compa.domain\\aarrangement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|solutionrelative:compa.domain\\aarrangement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|d:\\github\\compa\\compa\\compaasp\\compa.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|solutionrelative:compa.domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|d:\\github\\compa\\compa\\compaasp\\compa.domain\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.domain\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|solutionrelative:compa.domain\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|d:\\github\\compa\\compa\\compaasp\\compa.domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|solutionrelative:compa.domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,15 +58,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyMappingProfile.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Common\\Mappings\\AssemblyMappingProfile.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Common\\Mappings\\AssemblyMappingProfile.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Common\\Mappings\\AssemblyMappingProfile.cs",
+              "RelativeToolTip": "Compa.App\\Common\\Mappings\\AssemblyMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T14:08:55.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMapWith.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Common\\Mappings\\IMapWith.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Common\\Mappings\\IMapWith.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Common\\Mappings\\IMapWith.cs",
+              "RelativeToolTip": "Compa.App\\Common\\Mappings\\IMapWith.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T14:03:13.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Compa.Persistance\\DbInitializer.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\DbInitializer.cs",
+              "RelativeToolTip": "Compa.Persistance\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T14:00:40.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompaDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\CompaDbContext.cs",
+              "RelativeDocumentMoniker": "Compa.Persistance\\CompaDbContext.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\CompaDbContext.cs",
+              "RelativeToolTip": "Compa.Persistance\\CompaDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:55:57.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Interfaces\\IUserDbContext.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Interfaces\\IUserDbContext.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Interfaces\\IUserDbContext.cs",
+              "RelativeToolTip": "Compa.App\\Interfaces\\IUserDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:52:37.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
+              "RelativeToolTip": "Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:41:49.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Compa.Persistance",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
+              "RelativeDocumentMoniker": "Compa.Persistance\\Compa.Persistance.csproj",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
+              "RelativeToolTip": "Compa.Persistance\\Compa.Persistance.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T13:41:01.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Compa.App",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+              "RelativeDocumentMoniker": "Compa.App\\Compa.App.csproj",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+              "RelativeToolTip": "Compa.App\\Compa.App.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T13:35:16.291Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Gender.cs",
               "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Gender.cs",
               "RelativeDocumentMoniker": "Compa.Domain\\Gender.cs",
@@ -47,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Aarrangement.cs",
               "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Aarrangement.cs",
               "RelativeDocumentMoniker": "Compa.Domain\\Aarrangement.cs",
@@ -60,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Tag.cs",
               "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Tag.cs",
               "RelativeDocumentMoniker": "Compa.Domain\\Tag.cs",
@@ -73,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\User.cs",
               "RelativeDocumentMoniker": "Compa.Domain\\User.cs",
