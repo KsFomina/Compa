@@ -1,0 +1,12 @@
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\bin\Debug\net6.0\Compa.Domain.deps.json
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\bin\Debug\net6.0\Compa.Domain.dll
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\bin\Debug\net6.0\Compa.Domain.pdb
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\Compa.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\Compa.Domain.AssemblyInfoInputs.cache
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\Compa.Domain.AssemblyInfo.cs
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\Compa.Domain.csproj.CoreCompileInputs.cache
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\Compa.Domain.sourcelink.json
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\Compa.Domain.dll
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\refint\Compa.Domain.dll
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\Compa.Domain.pdb
+D:\Github\Compa\Compa\CompaASP\Compa.Domain\obj\Debug\net6.0\ref\Compa.Domain.dll
