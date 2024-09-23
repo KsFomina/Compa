@@ -1,0 +1,16 @@
+D:\Github\Compa\Compa\CompaASP\Compa.App\bin\Debug\net6.0\Compa.App.deps.json
+D:\Github\Compa\Compa\CompaASP\Compa.App\bin\Debug\net6.0\Compa.App.dll
+D:\Github\Compa\Compa\CompaASP\Compa.App\bin\Debug\net6.0\Compa.App.pdb
+D:\Github\Compa\Compa\CompaASP\Compa.App\bin\Debug\net6.0\Compa.Domain.dll
+D:\Github\Compa\Compa\CompaASP\Compa.App\bin\Debug\net6.0\Compa.Domain.pdb
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.csproj.AssemblyReference.cache
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.AssemblyInfoInputs.cache
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.AssemblyInfo.cs
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.csproj.CoreCompileInputs.cache
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.sourcelink.json
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.csproj.Up2Date
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.dll
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\refint\Compa.App.dll
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\Compa.App.pdb
+D:\Github\Compa\Compa\CompaASP\Compa.App\obj\Debug\net6.0\ref\Compa.App.dll

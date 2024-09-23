@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iwAMBTdKAatEjFQIF+pC94arDps6x1q2eD32MiR7gr8=",
+  "Source": "Compa.WebAPI",
+  "BasePath": "_content/Compa.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
