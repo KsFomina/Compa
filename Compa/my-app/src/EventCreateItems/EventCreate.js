@@ -11,9 +11,9 @@ const EventCreate = () => {
             </svg>
             </button>
             <div class="container"> 
-            <input type='text' placeholder='Название события' ></input>
-            <input type='text' placeholder='Название события'></input>
-            <input type='text' placeholder='Название события'></input>
+            <input class="input_mini" type='text' placeholder='Название события' ></input>
+            <input class="input_mini" type='text' placeholder='Название события'></input>
+            <input class="input_mini" type='text' placeholder='Название события'></input>
             </div>
         </div>
     );
