@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Mw84AQF/j1hapBjoUcruI2V38HMR0TLjem0na9reaaK+4EAekIeic80K0AHEIm9w+mQZWHGTRUcRLR4tWx5jIg==",
+  "dgSpecHash": "GH6Tr3/itO4bxbW9LC4X4ghcpqtXayN3PII8TXIlcZZAcC+VMpUyGw1SUdCqaNSUCCmhVOFTLzC6ZcY4mvS0iQ==",
   "success": true,
   "projectFilePath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
