@@ -12,8 +12,8 @@ const EventCreate = () => {
             </button>
             <div class="container"> 
             <input class="input_mini" type='text' placeholder='Название события' ></input>
-            <input class="input_mini" type='text' placeholder='Название события'></input>
-            <input class="input_mini" type='text' placeholder='Название события'></input>
+            <textarea class="input_maxi" type='text' placeholder='Описание событие'></textarea>
+            <p>Теги</p>
             </div>
         </div>
     );
