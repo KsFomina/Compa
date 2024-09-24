@@ -9,14 +9,17 @@
 }
 .container {
     display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 120px;
     flex-direction: column;
-    margin-top: 130px;
     gap: 10px; /* Расстояние между элементами */
 }
 .buttonClose {
-    position:fixed;
+    position: absolute;
+    right: 0;
+    margin-right: 3%;
     top:30px;
-    right: 30px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     border: none;
@@ -35,9 +38,7 @@
 }
 .input_mini{
     border: 2px solid #9978ee;
-    border-radius: 25px;
-    margin-left: 3%;
-    margin-right: 3%;
+    border-radius: 30px;
     height: 60px;
 
     &:focus{
@@ -48,9 +49,7 @@
 }
 .input_maxi{
     border: 2px solid #9978ee;
-    border-radius: 25px;
-    margin-left: 3%;
-    margin-right: 3%;
+    border-radius: 30px;
     height: 150px;
 
     &:focus{
@@ -59,9 +58,23 @@
         border: 2px solid #FF735C;     
     }
 }
+.input_calendar{
+    border: 2px solid #9978ee;
+    border-radius: 30px;
+    margin-top: -15px;
+    height: 60px;
+    padding-right: 15px;
+    column-count: #d7c8f9;
+
+    &:focus{
+        outline: none;
+        outline-offset: 0;
+        border: 2px solid #FF735C;
+    }
+}
 input{
     font-size: 16px;
-    color: #9978ee;
+    border-color: #9978ee;
     padding-left: 20px;
 
     &::placeholder{
@@ -92,8 +105,33 @@ textarea{
 }
 p{
     text-align: left;
-    margin-left: 3%;
     padding-left: 20px;
-    margin-right: 3%;
     color: #9978ee;
+}
+.buttonTegs {
+    border-radius: 25px;
+    width: 23%;
+    height: 40px;
+    margin-right: 70%;
+    margin-top: -20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: none;
+    background-color: #FF735C;
+    outline: none;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+    
+    &:hover {
+        background-color: #ff510c;
+    }
+    
+    &:active {
+        background-color: #ff510c;
+    }
+}
+.textButton{
+    text-align: center;
+    color: #fff;
 }
