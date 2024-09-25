@@ -18,7 +18,6 @@ const Tabs = () => {
                     <div 
                     key = {index}
                     style={{
-                        backgroundColor: activeTab === index ? '#f7f0ff' : 'white',
                         textDecoration: activeTab === index ? 'underline' : 'none',
                         cursor: 'pointer',
                         padding: '10px',

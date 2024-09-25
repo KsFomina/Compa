@@ -1,6 +1,7 @@
 import React from 'react';
 import EventCard from './EventCard';
 import SearchBar from './SearchBar';
+import EventItem from '../EventItem/EventItem';
 
 
 const EventList =() =>{
@@ -8,7 +9,7 @@ const EventList =() =>{
         {
             name: 'Вечерняя пробежка',
             about: 'Хочу пробежаться км 2-5.',
-            people: '3',
+            time: '3',
             
         },
         {
