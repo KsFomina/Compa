@@ -28,11 +28,11 @@
     overflow: hidden;
     
     &:hover {
-        background-color: #ff510c;
+        background-color: #f45a42;
     }
     
     &:active {
-        background-color: #ff510c;
+        background-color: #f45a42;
     }
 }
 .input_mini{
@@ -43,7 +43,7 @@
     &:focus{
         outline: none;
         outline-offset: 0;
-        border: 2px solid #FF735C;     
+        border: 2px solid #f45a42;     
     }
 }
 .input_maxi{
@@ -123,11 +123,11 @@ p{
     
     
     &:hover {
-        background-color: #ff510c;
+        background-color:#f45a42;
     }
     
     &:active {
-        background-color: #ff510c;
+        background-color:#f45a42;
     }
 }
 .textButton{
