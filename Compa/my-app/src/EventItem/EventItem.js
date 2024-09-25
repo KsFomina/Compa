@@ -5,7 +5,7 @@ const EventItem =() => {
     const {eventName} = useParams();
     return (
         <div>
-            <h1>hijwrjiwrirw</h1>
+            <h1>тут: {eventName}</h1>
         </div>
     );
 };

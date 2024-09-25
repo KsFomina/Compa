@@ -1,14 +1,15 @@
 import React from 'react';
 import './EventCard.css';
-import { Link, useNavigate } from 'react-router-dom';
-import EventItem from '../EventItem/EventItem';
+import {useNavigate } from 'react-router-dom';
+
 
 const EventCard = ({name, teg, people, about, time}) =>{
     const navigate = useNavigate();
 
     const handleClick = () =>{
-        navigate("./EventItem/EventItem.js")
-    }
+        navigate(`/event/${name}`);
+    };
+
     return (
         <div onClick={handleClick} className="event-card">
         <div className="event-image">
