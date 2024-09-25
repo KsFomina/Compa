@@ -20,6 +20,7 @@ const EventCreate = () => {
             <p>Дата и время начала события</p>
             <input class="input_calendar" type='date'></input>
             <input class="input_mini"></input>
+            
             </div>
         </div>
     );

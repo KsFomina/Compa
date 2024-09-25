@@ -4,7 +4,6 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    color:#d7c8f9;
     font-style: normal;
 }
 .container {
@@ -64,7 +63,7 @@
     margin-top: -15px;
     height: 60px;
     padding-right: 15px;
-    column-count: #d7c8f9;
+    color: #d7c8f9;
 
     &:focus{
         outline: none;
