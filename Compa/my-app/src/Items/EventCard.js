@@ -4,7 +4,9 @@ import './EventCard.css';
 const EventCard = ({name, teg, people, about, time}) =>{
     return (
         <div className="event-card">
-            <img className="event-image"/>
+            <div className="event-image">
+            <img/>
+            </div>
             <div className="event-info">
                 <h2>{name}</h2>
                 <p>Описание: {about}</p>
