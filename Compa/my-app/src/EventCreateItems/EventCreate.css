@@ -11,7 +11,7 @@
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 70px;
-    margin-bottom: 3%;
+    margin-bottom: 13%;
     flex-direction: column;
     gap: 10px; /* Расстояние между элементами */
 }
@@ -159,7 +159,7 @@ p{
 
 .buttonCreate {
     right: 0;
-    bottom: 0;
+    bottom: 1%;
     margin-right: 3%;
     position:fixed;
     border-radius: 25px;
