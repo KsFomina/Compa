@@ -21,13 +21,29 @@ const EventCreate = () => {
             <p >Теги</p>
             <button class='buttonTegs'>
                 <text class="textButton">выбрать</text></button>
+            
+            <input class="input_mini" type='text' placeholder='Город' required></input>
             <input class="input_mini" type='number' min="0" max="100" placeholder='Количество участников' required></input>
             <p>Дата и время начала события</p>
             <input class="input_calendar" type='date'></input>
-            <input class="input_mini"></input>
-            
+            <input class="input_mini" type='time'></input>
+            <input class="input_mini" placeholder='Место встречи'></input>
+            <p>Скрыть после</p>
+            <input class="input_calendar" type='date'></input>
+            <p>Видить могут только:</p>
+            <p>Возраст:</p>
+            <div className='containerAge'>
+                <p>от</p>
+                <input class="input_age" type="number"></input>
+                <p>до</p>
+                <input class="input_age" type="number"></input>
             </div>
+            </div>
+            <button class="buttonCreate">
+                <text class="textButton">создать</text>
+                </button>
         </div>
+        
     );
 };
 

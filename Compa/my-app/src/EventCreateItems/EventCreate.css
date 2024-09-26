@@ -3,7 +3,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 100%;
     font-style: normal;
 }
 .container {
@@ -11,11 +11,17 @@
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 120px;
+    margin-bottom: 3%;
     flex-direction: column;
     gap: 10px; /* Расстояние между элементами */
 }
+
+.containerAge{
+    display:inline-flex;
+}
+
 .buttonClose {
-    position: absolute;
+    position: fixed;
     right: 0;
     margin-right: 3%;
     top:30px;
@@ -39,6 +45,7 @@
     border: 2px solid #9978ee;
     border-radius: 30px;
     height: 60px;
+    padding-right: 15px;
 
     &:focus{
         outline: none;
@@ -46,10 +53,28 @@
         border: 2px solid #f45a42;     
     }
 }
+
+.input_age{
+    border: 2px solid #9978ee;
+    border-radius: 30px;
+    height: auto;
+    width: auro;
+    max-width: 50px;
+    margin-left: 10px;
+    padding-right: 15px;
+
+    &:focus{
+        outline: none;
+        outline-offset: 0;
+        border: 2px solid #f45a42;     
+    }
+}
+
 .input_maxi{
     border: 2px solid #9978ee;
     border-radius: 30px;
     height: 150px;
+    padding-right: 15px;
 
     &:focus{
         outline: none;
@@ -63,7 +88,7 @@
     margin-top: -15px;
     height: 60px;
     padding-right: 15px;
-    color: #d7c8f9;
+    color: #9978ee;
 
     &:focus{
         outline: none;
@@ -74,6 +99,7 @@
 input{
     font-size: 16px;
     border-color: #9978ee;
+    color:#9978ee;
     padding-left: 20px;
 
     &::placeholder{
@@ -109,10 +135,36 @@ p{
 }
 .buttonTegs {
     border-radius: 25px;
-    width: 23%;
+    width: 130px;
     height: 40px;
-    margin-right: 70%;
+    margin-right: 60%;
     margin-top: -20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border: none;
+    background-color: #FF735C;
+    outline: none;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+    
+    &:hover {
+        background-color:#f45a42;
+    }
+    
+    &:active {
+        background-color:#f45a42;
+    }
+}
+
+.buttonCreate {
+    right: 0;
+    bottom: 0;
+    margin-right: 3%;
+    position:fixed;
+    border-radius: 25px;
+    min-width: 130px;
+    height: 50px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     border: none;
