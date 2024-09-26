@@ -16,6 +16,7 @@ const EventCreate = () => {
             </svg>
             </button>
             <div class="container"> 
+            <p>Создание события</p>
             <input class="input_mini" type='text' placeholder='Название события' required></input>
             <textarea class="input_maxi" type='text' placeholder='Описание событие'></textarea>
             <p >Теги</p>
