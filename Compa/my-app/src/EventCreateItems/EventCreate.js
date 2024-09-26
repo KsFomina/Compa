@@ -17,34 +17,34 @@ const EventCreate = () => {
             </button>
             <div class="container"> 
             <p>Создание события</p>
-            <input class="input_mini" type='text' placeholder='Название события' required></input>
-            <textarea class="input_maxi" type='text' placeholder='Описание событие'></textarea>
+            <input class="input_mini" type='text' placeholder='Название события' id="event_name" required></input>
+            <textarea class="input_maxi" type='text' placeholder='Описание событие' id="event_description"></textarea>
             <p >Теги</p>
             <button class='buttonTegs'>
                 <text class="textButton">выбрать</text></button>
             
-            <input class="input_mini" type='text' placeholder='Город' required></input>
-            <input class="input_mini" type='number' min="0" max="100" placeholder='Количество участников' required></input>
+            <input class="input_mini" type='text' placeholder='Город' id="event_city" required></input>
+            <input class="input_mini" type='number' min="0" max="100" placeholder='Количество участников' id="count_people" required></input>
             <p>Дата и время начала события</p>
-            <input class="input_calendar" type='date'></input>
-            <input class="input_mini" type='time'></input>
-            <input class="input_mini" placeholder='Место встречи'></input>
+            <input class="input_calendar" type='date' id="event_date"></input>
+            <input class="input_mini" type='time' id="event_time"></input>
+            <input class="input_mini" placeholder='Место встречи' id="event_place"></input>
             <p>Скрыть после</p>
-            <input class="input_calendar" type='date'></input>
+            <input class="input_calendar" type='date' id="event_close_date"></input>
             <p>Видить могут только:</p>
             <p>Возраст:</p>
             <div className='containerAge'>
                 <p>от</p>
-                <input class="input_age" type="number"></input>
+                <input class="input_age" type="number" id="age1"></input>
                 <p>до</p>
-                <input class="input_age" type="number"></input>
+                <input class="input_age" type="number" id="age2"></input>
             </div>
             </div>
             <button class="buttonCreate">
                 <text class="textButton">создать</text>
                 </button>
+            <script src="get_data.js"></script>
         </div>
-        
     );
 };
 
