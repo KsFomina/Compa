@@ -1,6 +1,7 @@
 import React from 'react';
 import EventCard from './EventCard';
 import SearchBar from './SearchBar';
+import EventItem from '../EventItem/EventItem';
 
 
 const EventList =() =>{
@@ -8,13 +9,23 @@ const EventList =() =>{
         {
             name: 'Вечерняя пробежка',
             about: 'Хочу пробежаться км 2-5.',
-            people: '3',
+            time: '03.11.2024',
             
         },
         {
             name: 'Поход в кино',
             about: 'Пошли в кино!',
             time: '2.10.2024'
+        },
+        {
+            name: 'Учеба',
+            about: 'Хочу уделить некоторое время учебе.',
+            time: '12.10.2024'
+        }, 
+        {
+            name: 'Видеоигры',
+            about: 'Ищу людей для проведения турниров.',
+            time: '15.10.2024'
         },
         {
             name: 'Учеба',

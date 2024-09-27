@@ -12,6 +12,7 @@
         <Routes>
           <Route path="/" element={<Tabs/>} />
           <Route path="/event-create" element={<EventCreate/>} />
+          <Route path="/tabs" element={<Tabs/>} />
         </Routes>
       </Router>
       </div>
