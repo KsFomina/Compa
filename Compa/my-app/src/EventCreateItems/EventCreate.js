@@ -1,6 +1,7 @@
 import React from 'react';
 import './EventCreate.css';
 import { useNavigate } from 'react-router-dom';
+import { get_data } from './get_data.js'
 
 const EventCreate = () => {
     const navigate = useNavigate();
@@ -40,10 +41,9 @@ const EventCreate = () => {
                 <input class="input_age" type="number" id="age2"></input>
             </div>
             </div>
-            <button class="buttonCreate">
+            <button class="buttonCreate" onClick={()=>get_data()}>
                 <text class="textButton">создать</text>
                 </button>
-            <script src="get_data.js"></script>
         </div>
     );
 };
