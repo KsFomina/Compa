@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Compa.App.Entity.Users.Commands.CreateUser;
+using Compa.App.Entity.Users.Commands.DelUser;
 using Compa.App.Entity.Users.Commands.UpdateUser;
 using Compa.App.Entity.Users.Queries.GetUserDetails;
 using Compa.App.Entity.Users.Queries.GetUserList;
@@ -51,7 +52,7 @@ namespace Compa.WebAPI.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {
-            var command = new UpdateUserCommand { UserId = id};
+            var command = new DelUserCommand { UserId = id};
             await Mediator.Send(command);
             return NoContent();
         }

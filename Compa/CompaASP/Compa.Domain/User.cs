@@ -13,7 +13,7 @@ namespace Compa.Domain
         public string surname { get; set; }
         public int age { get; set; }
         public Gender gender { get; set; }
-        public List<Tag> tagList { get; set; }
+        public List<Guid> tagList { get; set; }
         public string login { get; set; }
         public string password { get; set; }
 

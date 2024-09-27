@@ -27,6 +27,7 @@ namespace Compa.App.Entity.Users.Queries.GetUserDetails
         {
             var entity = await _userDbContext.users
                  .FirstOrDefaultAsync(ent => ent.userId == request.UserId, cancellationToken);
+
             if (entity == null || entity.userId!= request.UserId)
             {
                 throw new NotFoundException(nameof(User), request.UserId );

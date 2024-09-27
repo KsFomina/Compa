@@ -15,7 +15,7 @@ using System.Xml.Linq;
 
 namespace Compa.App.Entity.Users.Commands.UpdateUser
 {
-    internal class UpdateUserCommandHandler: IRequestHandler<UpdateUserCommand>
+    public class UpdateUserCommandHandler: IRequestHandler<UpdateUserCommand>
     {
         private readonly IUserDbContext userDbContext;
 

@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\Github\\Compa\\Compa\\CompaASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.app\\interfaces\\iuserdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\interfaces\\iuserdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.persistance\\compadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\compadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|d:\\github\\compa\\compa\\compaasp\\compa.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.persistance\\entitytypeconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\entitytypeconfiguration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.app\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|d:\\github\\compa\\compa\\compaasp\\compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.persistance\\compa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{53C8179F-9D80-40B5-A436-3E6F458BBD72}|Compa.Persistance\\Compa.Persistance.csproj|solutionrelative:compa.persistance\\compa.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|d:\\github\\compa\\compa\\compaasp\\compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,116 +54,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserDbContext.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Interfaces\\IUserDbContext.cs",
-              "RelativeDocumentMoniker": "Compa.App\\Interfaces\\IUserDbContext.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Interfaces\\IUserDbContext.cs",
-              "RelativeToolTip": "Compa.App\\Interfaces\\IUserDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAkAAAA",
+              "DocumentIndex": 4,
+              "Title": "GetArrangementListDTO.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T19:21:58.204Z",
+              "WhenOpened": "2024-09-27T18:02:33.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "Compa.WebAPI\\appsettings.json",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\appsettings.json",
-              "RelativeToolTip": "Compa.WebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-23T19:03:42.362Z",
+              "Title": "UpdateArragementCommandHandler.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
+              "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAcwBUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T18:01:45.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Compa.Persistance",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
-              "RelativeDocumentMoniker": "Compa.Persistance\\Compa.Persistance.csproj",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
-              "RelativeToolTip": "Compa.Persistance\\Compa.Persistance.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-23T18:37:31.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
-              "RelativeToolTip": "Compa.Persistance\\EntityTypeConfiguration\\UserConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "DocumentIndex": 2,
+              "Title": "CreateArrangementCommand.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
+              "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:34:12.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Compa.Persistance\\DependencyInjection.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\DependencyInjection.cs",
-              "RelativeToolTip": "Compa.Persistance\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:32:34.035Z"
+              "WhenOpened": "2024-09-27T18:01:40.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CompaDbContext.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\CompaDbContext.cs",
-              "RelativeDocumentMoniker": "Compa.Persistance\\CompaDbContext.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\CompaDbContext.cs",
-              "RelativeToolTip": "Compa.Persistance\\CompaDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Title": "CreateArrangementCommandHandler.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA0wBEAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:32:22.219Z",
+              "WhenOpened": "2024-09-27T18:01:34.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Compa.WebAPI\\Program.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Program.cs",
-              "RelativeToolTip": "Compa.WebAPI\\Program.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwD4AAAAAAAAA",
+              "Title": "UpdateArragementCommand.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
+              "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T18:32:16.082Z",
+              "WhenOpened": "2024-09-27T18:01:48.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "Compa.Persistance\\DbInitializer.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\DbInitializer.cs",
-              "RelativeToolTip": "Compa.Persistance\\DbInitializer.cs",
+              "DocumentIndex": 5,
+              "Title": "GetArrangementListVM.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
+              "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T19:10:58.106Z",
+              "WhenOpened": "2024-09-27T18:06:04.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Compa.App\\DependencyInjection.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\DependencyInjection.cs",
-              "RelativeToolTip": "Compa.App\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "GetArragementDetailsVM.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
+              "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
+              "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T19:10:39.877Z"
+              "WhenOpened": "2024-09-27T18:02:41.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Compa.WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Compa.WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwDMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:51:26.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArrangementController.cs",
+              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "RelativeDocumentMoniker": "Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "RelativeToolTip": "Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T17:51:17.745Z",
+              "EditorCaption": ""
             }
           ]
         },

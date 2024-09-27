@@ -14,7 +14,7 @@ namespace Compa.App.Entity.Users.Commands.CreateUser
         public string Surname { get; set; }
         public int Age { get; set; }
         public Gender Gender { get; set; }
-        public List<Tag> TagList { get; set; }
+        public List<Guid> TagList { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
     }
