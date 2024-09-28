@@ -33,6 +33,18 @@ const EventCreate = () => {
             <p>Скрыть после</p>
             <input class="input_calendar" type='date' id="event_close_date"></input>
             <p>Видить могут только:</p>
+            <div className="custom-radio">
+            <label className="custom-label">
+                <input type="radio" name="gender" value="male"/>
+                <span className="radio-circle"></span>
+                Мужчины
+            </label>
+            <label className="custom-label">
+                <input type="radio" name="gender" value="female"/>
+                <span className="radio-circle"></span>
+                Женщины
+            </label>
+            </div>
             <p>Возраст:</p>
             <div className='containerAge'>
                 <p>от</p>
