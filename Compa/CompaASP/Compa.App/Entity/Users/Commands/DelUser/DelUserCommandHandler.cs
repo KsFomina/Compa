@@ -24,7 +24,6 @@ namespace Compa.App.Entity.Users.Commands.DelUser
 
         public async Task<Unit> Handle(DelUserCommand request, CancellationToken cancellationToken)
         {
-
             var entity =
                 await userDbContext.users.FirstOrDefaultAsync(
                     item => item.userId == request.UserId, cancellationToken);
@@ -33,7 +32,6 @@ namespace Compa.App.Entity.Users.Commands.DelUser
             {
                 throw new NotFoundException(nameof(User), request.UserId);
             }
-
 
             userDbContext.users.Remove(entity);
             await userDbContext.SaveChangesAsync(cancellationToken);

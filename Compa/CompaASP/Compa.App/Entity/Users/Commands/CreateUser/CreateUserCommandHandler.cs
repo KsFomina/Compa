@@ -1,4 +1,5 @@
-﻿using Compa.App.Interfaces;
+﻿
+using Compa.App.Interfaces;
 using Compa.Domain;
 using MediatR;
 using System;

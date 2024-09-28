@@ -7,10 +7,11 @@ using Microsoft.EntityFrameworkCore;
 namespace Compa.Persistance
 {
     public class CompaDbContext : DbContext,
-        IUserDbContext, IArrangementDbContext
+        IUserDbContext, IArrangementDbContext, ITagDbContext
     {
         public DbSet<User> users { get; set; }
         public DbSet<Arrangement> arrangements { get; set; }
+        public DbSet<Tag> tags { get; set; }
 
         public CompaDbContext(DbContextOptions<CompaDbContext> options):base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

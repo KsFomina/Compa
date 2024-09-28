@@ -18,6 +18,7 @@ namespace Compa.Persistance
 
             services.AddScoped<IUserDbContext>(provider => provider.GetService<CompaDbContext>());
             services.AddScoped<IArrangementDbContext>(provider => provider.GetService<CompaDbContext>());
+            services.AddScoped<ITagDbContext>(provider => provider.GetService<CompaDbContext>());
 
             return services;
         }
