@@ -205,6 +205,7 @@ p{
 .custom-label{
     color: #9978ee;
     padding:10px;
+    font-size: 16px;
 }
 
 .custom-radio input[type="radio"]:checked + .radio-circle {

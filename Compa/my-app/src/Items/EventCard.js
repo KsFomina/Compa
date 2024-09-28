@@ -18,7 +18,9 @@ const EventCard = ({name, teg, people, about, time}) =>{
         <div className="event-info">
             <h2>{name}</h2>
             <p>Описание: {about}</p>
-            <p>Сколько будет: {time}</p>
+        </div>  
+        <div className='content'> 
+            <label className='custom-label'>до {time}</label>
         </div>
     </div>
     );
