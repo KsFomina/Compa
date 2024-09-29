@@ -44,6 +44,11 @@ const EventCreate = () => {
                 <span className="radio-circle"></span>
                 Женщины
             </label>
+            <label className="custom-label">
+                <input type="radio" name="gender" value="female"/>
+                <span className="radio-circle"></span>
+                Все
+            </label>
             </div>
             <p>Возраст:</p>
             <div className='containerAge'>

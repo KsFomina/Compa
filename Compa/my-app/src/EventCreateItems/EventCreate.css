@@ -188,7 +188,12 @@ p{
 }
 
 .custom-radio input[type="radio"] {
-    display: none; 
+    display:none;
+}
+
+.custom-radio{
+    flex-direction: column; 
+    display:flex;
 }
 
 .radio-circle {
@@ -196,16 +201,19 @@ p{
     height: 20px; 
     border: 2px solid #9978ee;
     border-radius: 6px; 
-    display: inline-block;
-    margin-right: 10px;
+    display:inline-block;
+    margin-right: 5px;
     position: relative;
     cursor: pointer;
     vertical-align: middle;
 }
 .custom-label{
     color: #9978ee;
-    padding:10px;
+    padding:5px;
     font-size: 16px;
+    display: flex;
+    vertical-align:middle;
+    align-items:center;
 }
 
 .custom-radio input[type="radio"]:checked + .radio-circle {
