@@ -135,29 +135,7 @@ p{
     padding-left: 20px;
     color: #9978ee;
 }
-.buttonTegs {
-    border-radius: 25px;
-    width: 130px;
-    height: 40px;
-    margin-right: 60%;
-    margin-top: -20px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-    border: none;
-    background-color: #FF735C;
-    outline: none;
-    overflow: hidden;
-    margin-bottom: 10px;
-    
-    
-    &:hover {
-        background-color:#f45a42;
-    }
-    
-    &:active {
-        background-color:#f45a42;
-    }
-}
+
 
 .buttonCreate {
     right: 0;
