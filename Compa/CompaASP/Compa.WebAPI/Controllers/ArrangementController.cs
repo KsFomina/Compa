@@ -1,10 +1,14 @@
 ﻿using AutoMapper;
+using Compa.App.Entity.Arrangements.Commands.AddUserToArr;
 using Compa.App.Entity.Arrangements.Commands.CreateArrangement;
 using Compa.App.Entity.Arrangements.Commands.DelArragement;
+using Compa.App.Entity.Arrangements.Commands.DelUser;
 using Compa.App.Entity.Arrangements.Commands.UpdateArragement;
 using Compa.App.Entity.Arrangements.Queries.GetArragementDetails;
 using Compa.App.Entity.Arrangements.Queries.GetArrangementList;
+using Compa.App.Entity.Users.Commands.AddTag;
 using Compa.App.Entity.Users.Commands.CreateUser;
+using Compa.App.Entity.Users.Commands.DelTag;
 using Compa.App.Entity.Users.Commands.UpdateUser;
 using Compa.App.Entity.Users.Queries.GetUserDetails;
 using Compa.App.Entity.Users.Queries.GetUserList;
@@ -47,6 +51,13 @@ namespace Compa.WebAPI.Controllers
             return Ok(id);
 
         }
+        [HttpPost("AddUser")]
+        public async Task<IActionResult> AddUser([FromBody] AddUserToArrCommand body)
+        {
+            var command = _mapper.Map<AddUserToArrCommand>(body);
+            await Mediator.Send(command);
+            return NoContent();
+        }
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UpdateArragementCommand body)
         {
@@ -58,6 +69,13 @@ namespace Compa.WebAPI.Controllers
         public async Task<IActionResult> Delete(Guid id)
         {
             var command = new DelArragementCommand { ArragementId = id };
+            await Mediator.Send(command);
+            return NoContent();
+        }
+        [HttpDelete("DelUser")]
+        public async Task<IActionResult> DelUser([FromBody] DelUserFromArrCommand body)
+        {
+            var command = _mapper.Map<DelUserFromArrCommand>(body);
             await Mediator.Send(command);
             return NoContent();
         }

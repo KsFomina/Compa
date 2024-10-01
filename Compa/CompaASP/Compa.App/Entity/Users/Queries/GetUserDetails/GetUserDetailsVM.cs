@@ -11,17 +11,19 @@ namespace Compa.App.Entity.Users.Queries.GetUserDetails
 {
     public class GetUserDetailsVM: IMapWith<User>
     {
+        public Guid UserId { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public int Age { get; set; }
         public Gender Gender { get; set; }
-        public List<Tag> TagList { get; set; }
+        public List<Guid> TagList { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
 
         public void Mapping(Profile profile)
         {
             profile.CreateMap<User, GetUserDetailsVM>()
+                .ForMember(ent => ent.UserId, opt => opt.MapFrom(obj => obj.userId))
                 .ForMember(ent => ent.Name, opt => opt.MapFrom(obj => obj.name))
                 .ForMember(ent => ent.Surname, opt => opt.MapFrom(obj => obj.surname))
                 .ForMember(ent => ent.Age, opt => opt.MapFrom(obj => obj.age))

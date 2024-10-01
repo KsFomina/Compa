@@ -30,6 +30,7 @@ namespace Compa.App.Entity.Arrangements.Commands.CreateArrangement
                 endTime = request.EndTime,
                 place = request.Place,
                 creatorId = request.CreatorId,
+                membersIds = new List<Guid>(),
 
             };
             await _arContext.arrangements.AddAsync(arrangement, cancellationToken);
