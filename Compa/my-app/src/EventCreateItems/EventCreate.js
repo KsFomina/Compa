@@ -2,6 +2,7 @@ import React from 'react';
 import './EventCreate.css';
 import { useNavigate } from 'react-router-dom';
 import { get_data } from './get_data.js'
+import TegsButton from './TegsButton.js';
 
 const EventCreate = () => {
     const navigate = useNavigate();
@@ -11,9 +12,9 @@ const EventCreate = () => {
     return (
         <div>
             <button class='buttonClose' onClick={handleCreateEvent}>
-            <svg width="58" height="58" viewBox="0 0 58 58" fill="#FF735C" xmlns="http://www.w3.org/2000/svg">
-            <rect x="19.8073" y="22.5698" width="2.49259" height="22.575" rx="1.2463" transform="rotate(-45 19.8073 22.5698)" fill="white" stroke="white" />
-            <rect x="21.5698" y="38.5328" width="2.49259" height="22.575" rx="1.2463" transform="rotate(-135 21.5698 38.5328)" fill="white" stroke="white" />
+            <svg width="30" height="30" viewBox="0 0 58 58" fill="#FF735C" xmlns="http://www.w3.org/2000/svg">
+            <rect x="17" y="24" width="2.49259" height="22.575" rx="1.2463" transform="rotate(-45 19.8073 22.5698)" fill="white" stroke="white" />
+            <rect x="20" y="36" width="2.49259" height="22.575" rx="1.2463" transform="rotate(-135 21.5698 38.5328)" fill="white" stroke="white" />
             </svg>
             </button>
             <div class="container"> 
@@ -21,9 +22,7 @@ const EventCreate = () => {
             <input class="input_mini" type='text' placeholder='Название события' id="event_name" required></input>
             <textarea class="input_maxi" type='text' placeholder='Описание событие' id="event_description"></textarea>
             <p >Теги</p>
-            <button class='buttonTegs'>
-                <text class="textButton">выбрать</text></button>
-            
+            <TegsButton />
             <input class="input_mini" type='text' placeholder='Город' id="event_city" required></input>
             <input class="input_mini" type='number' min="0" max="100" placeholder='Количество участников' id="count_people" required></input>
             <p>Дата и время начала события</p>
@@ -37,12 +36,17 @@ const EventCreate = () => {
             <label className="custom-label">
                 <input type="radio" name="gender" value="male"/>
                 <span className="radio-circle"></span>
-                Мужчины
+                мужчины
             </label>
             <label className="custom-label">
                 <input type="radio" name="gender" value="female"/>
                 <span className="radio-circle"></span>
-                Женщины
+                женщины
+            </label>
+            <label className="custom-label">
+                <input type="radio" name="gender" value="female"/>
+                <span className="radio-circle"></span>
+                все
             </label>
             </div>
             <p>Возраст:</p>
