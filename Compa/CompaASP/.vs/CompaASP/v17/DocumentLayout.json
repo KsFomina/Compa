@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\Compa\\Compa\\CompaASP\\",
+  "WorkspaceRootPath": "D:\\Compa\\Compa\\CompaASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|d:\\compa\\compa\\compaasp\\compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserlist\\getuserlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserlist\\getuserlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserlist\\getuserlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserlist\\getuserlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserlist\\getuserlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserlist\\getuserlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\commands\\addtagtouser\\addtagtousercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\commands\\addtagtouser\\addtagtousercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\commands\\addtagtouser\\addtagtousercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|D:\\Github\\Compa\\Compa\\CompaASP\\compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|d:\\compa\\compa\\compaasp\\compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,21 +46,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CreateArrangementCommandHandler.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAuAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAwAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T15:03:49.964Z",
               "EditorCaption": ""
@@ -69,119 +77,97 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GetArrangementListDTO.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAwwBQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:58:33.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:58:33.524Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "GetUserListDTO.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListDTO.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListDTO.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListDTO.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListDTO.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListDTO.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:37:28.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:37:28.639Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "GetUserListVM.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListVM.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListVM.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListVM.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListVM.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListVM.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserList\\GetUserListVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:37:26.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:37:26.757Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AddTagToUserCommand.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Commands\\AddTagToUser\\AddTagToUserCommand.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Commands\\AddTagToUser\\AddTagToUserCommand.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Commands\\AddTagToUser\\AddTagToUserCommand.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Commands\\AddTagToUser\\AddTagToUserCommand.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Commands\\AddTagToUser\\AddTagToUserCommand.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Commands\\AddTagToUser\\AddTagToUserCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:37:14.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:37:14.558Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GetUserDetailsVM.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:37:01.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:37:01.124Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "GetUserDetailsQuery.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:36:57.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:36:57.928Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Compa.WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Compa.WebAPI\\Controllers\\UserController.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAwwD4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:12:30.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:12:30.161Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ArrangementController.cs",
-              "DocumentMoniker": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
               "RelativeDocumentMoniker": "Compa.WebAPI\\Controllers\\ArrangementController.cs",
-              "ToolTip": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
               "RelativeToolTip": "Compa.WebAPI\\Controllers\\ArrangementController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAQwB8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:05:11.731Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 110,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2024-10-01T14:05:11.731Z"
             }
           ]
         }
