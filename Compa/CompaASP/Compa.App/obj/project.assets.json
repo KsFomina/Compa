@@ -829,19 +829,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ксения\\.nuget\\packages\\": {}
+    "C:\\Users\\grisa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+      "projectUniqueName": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
       "projectName": "Compa.App",
-      "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
-      "packagesPath": "C:\\Users\\Ксения\\.nuget\\packages\\",
-      "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\obj\\",
+      "projectPath": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+      "packagesPath": "C:\\Users\\grisa\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ксения\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\grisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -855,8 +855,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
-              "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj"
+            "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
+              "projectPath": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj"
             }
           }
         }
@@ -909,7 +909,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import EventList from './EventList';
 import './Tabs.css';
 import { useNavigate } from 'react-router-dom';
@@ -11,6 +11,12 @@ const Tabs = () => {
     const handleCreateEvent = () => {
         navigate('/event-create');
       };
+    const [cl,setCl] = useState()
+
+    useEffect(()=>{
+        fetch("https://localhost:7208/api/Arrangement").then(response => response.json().then(data => setCl(data)))
+    },[])
+    console.log(cl?.arrangements[0]?.title);
     return(
         <div className='tab-style'>
             <div className='tab-menu'>
@@ -43,6 +49,7 @@ const Tabs = () => {
              </svg>            
             </button>
             </div>
+            <p>{cl?.arrangements[0]?.title}</p>
         </div>
     );
 };
