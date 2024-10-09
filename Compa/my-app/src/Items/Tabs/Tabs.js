@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import EventList from "../EventList/EventList";
 import "./Tabs.css";
 import { useNavigate } from "react-router-dom";
+import AutorizationPage from "../../Authorization/AutorizationPage.js";
 
 const tabs = ["События", "Профиль", "Чаты"];
 
@@ -38,7 +39,7 @@ const Tabs = () => {
         ))}
       </div>
       <div className="tab-content">
-        {activeTab === 2}
+        {activeTab === 2 && <AutorizationPage />}
         {activeTab === 1}
         {activeTab === 0 && <EventList />}
       </div>
