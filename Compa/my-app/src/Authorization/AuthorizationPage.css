@@ -1,0 +1,60 @@
+.authorization-form{
+    margin: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.input-style{
+    display:inline-flex;
+    font-size: 20px;
+    border-radius: 25px;
+    min-width: 200px;
+    min-height: 30px;
+    position: relative;
+    border: 2px solid #784FE8; 
+    transition: border-color 0.3s;
+}
+
+.input-style:focus {
+    border-color: #FF735C; 
+    outline: #ffffff;
+}
+
+.input-style:hover{
+    transform: scale(1.05);
+}
+
+.img-style{
+    border:2px solid #784FE8;
+    border-radius: 50%;
+    min-width: 100px;
+    min-height: 100px;
+    margin-top: 10px;
+}
+
+.p-style{
+    display: block; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-size: 18px; 
+    margin: 10px 0 0 -200px; 
+}
+
+.button-style{
+    border:2px solid #FF735C;
+    border-radius: 25px;
+    background-color: #FF735C;
+    color:#ffffff;
+    text-align: center;
+    align-items: center; 
+    margin: 10px;
+    padding: 10px;
+    content: "войти";
+}
+
+.header-style{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: #784FE8;
+}
