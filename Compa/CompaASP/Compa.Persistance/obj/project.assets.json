@@ -1018,19 +1018,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sarka\\.nuget\\packages\\": {}
+    "C:\\Users\\Ксения\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
+      "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
       "projectName": "Compa.Persistance",
-      "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
-      "packagesPath": "C:\\Users\\sarka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Persistance\\obj\\",
+      "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
+      "packagesPath": "C:\\Users\\Ксения\\.nuget\\packages\\",
+      "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ксения\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1044,8 +1044,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
-              "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj"
+            "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
+              "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj"
             }
           }
         }
