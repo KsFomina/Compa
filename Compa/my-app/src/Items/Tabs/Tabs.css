@@ -1,0 +1,49 @@
+.tab-style {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+}
+
+.tab-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: #784fe8;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.tab-tab {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab-content {
+  flex: 1;
+  font-size: 24px;
+}
+
+.fixed-button {
+  background-color: #ff735c;
+  border: none;
+  border-radius: 35px 35px 0px 0px;
+  cursor: pointer;
+}
+
+.fixed-button:hover {
+  background-color: #f45a42;
+}
+
+.fixed-button-container {
+  position: fixed;
+  bottom: 0px;
+  right: 21px;
+  width: 100px;
+  height: 100px;
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+}
