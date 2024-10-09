@@ -44,7 +44,7 @@ const EventCreate = () => {
                 женщины
             </label>
             <label className="custom-label">
-                <input type="radio" name="gender" value="female"/>
+                <input type="radio" name="gender" value="female" id="gender"/>
                 <span className="radio-circle"></span>
                 все
             </label>
