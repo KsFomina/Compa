@@ -14,9 +14,10 @@ const Tabs = () => {
     const [cl,setCl] = useState()
 
     useEffect(()=>{
-        fetch("https://localhost:7208/api/Arrangement").then(response => response.json().then(data => setCl(data)))
+        fetch("https://localhost:7208/api/Arrangement/eeaf8464-aa93-41de-8f19-c7d5e69e4936").then(response => response.json().then(data => setCl(data)))
     },[])
-    console.log(cl?.arrangements[0]?.title);
+    // console.log(cl?.arrangements[0]?.title);
+    console.log(cl);
     return(
         <div className='tab-style'>
             <div className='tab-menu'>
@@ -49,7 +50,7 @@ const Tabs = () => {
              </svg>            
             </button>
             </div>
-            <p>{cl?.arrangements[0]?.title}</p>
+            {/* <p>{cl?.arrangements[0]?.title}</p> */}
         </div>
     );
 };

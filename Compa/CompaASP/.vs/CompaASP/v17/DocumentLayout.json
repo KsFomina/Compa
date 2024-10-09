@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GitHub\\Compa\\Compa\\CompaASP\\",
+  "WorkspaceRootPath": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\github\\compa\\compa\\compaasp\\compa.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\github\\compa\\compa\\compaasp\\compa.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\github\\compa\\compa\\compaasp\\compa.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +22,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Compa.WebAPI\\appsettings.json",
-              "ToolTip": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\appsettings.json",
               "RelativeToolTip": "Compa.WebAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-03T07:36:45.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T07:36:45.596Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "Compa.WebAPI\\Program.cs",
-              "ToolTip": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Program.cs",
               "RelativeToolTip": "Compa.WebAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T07:36:44.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-03T07:36:44.827Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Compa.WebAPI\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Properties\\launchSettings.json",
               "RelativeToolTip": "Compa.WebAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
