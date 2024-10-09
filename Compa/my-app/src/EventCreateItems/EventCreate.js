@@ -3,14 +3,24 @@ import './EventCreate.css';
 import { useNavigate } from 'react-router-dom';
 import { get_data } from './get_data.js'
 import TegsButton from './TegsButton.js';
+import {useGetArrangementQuery} from '../redux/Compa.WebAPI.js'
+
 
 const EventCreate = () => {
     const navigate = useNavigate();
     const handleCreateEvent = () => {
         navigate('/tabs');
       };
+    const {data, isLoading} = useGetArrangementQuery();
     return (
         <div>
+            <u1>
+                {data.map(item=>(
+                    <l1 key={item.arragementId}>
+                        {item.title}
+                    </l1>
+                ))}
+            </u1>
             <button class='buttonClose' onClick={handleCreateEvent}>
             <svg width="30" height="30" viewBox="0 0 58 58" fill="#FF735C" xmlns="http://www.w3.org/2000/svg">
             <rect x="17" y="24" width="2.49259" height="22.575" rx="1.2463" transform="rotate(-45 19.8073 22.5698)" fill="white" stroke="white" />

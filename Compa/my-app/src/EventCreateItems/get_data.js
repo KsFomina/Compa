@@ -1,3 +1,5 @@
+
+
 export function get_data() {
     const event_name = document.getElementById("event_name");
     const event_description = document.getElementById("event_description");

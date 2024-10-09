@@ -4,6 +4,7 @@ import './Tabs.css';
 import { useNavigate } from 'react-router-dom';
 
 const tabs =['События','Профиль','Чаты']
+const {data=[]}= useGetArrangement();
 
 const Tabs = () => {
     const [activeTab, setActiveTab] = useState(0);
