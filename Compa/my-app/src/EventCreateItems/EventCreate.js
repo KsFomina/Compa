@@ -16,11 +16,11 @@ const EventCreate = () => {
   }
   return (
     <div>
-      <u1>
+      {/* <u1>
         {data.map((item) => (
           <l1 key={item.arragementId}>{item.title}</l1>
         ))}
-      </u1>
+      </u1> */}
       <button class="buttonClose" onClick={handleCreateEvent}>
         <svg
           width="30"

@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AutorizationPage />} />
           <Route path="/Tabs" element={<Tabs />} />
-          <Route path="/Tabs/event-create" element={<EventCreate />} />
+          <Route path="/eventCreate" element={<EventCreate />} />
         </Routes>
       </Router>
     </div>

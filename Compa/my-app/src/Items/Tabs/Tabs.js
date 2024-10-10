@@ -10,7 +10,7 @@ const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
   const navigate = useNavigate();
   const handleCreateEvent = () => {
-    navigate("/event-create");
+    navigate("/eventCreate");
   };
   const [cl, setCl] = useState();
 

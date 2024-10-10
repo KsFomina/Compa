@@ -3,7 +3,7 @@ import { buildQueries } from "@testing-library/react";
 
 export const CompaAPI = createApi({
   reducerPath: "CompaApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "https://localhost:7208/" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://localhost:7208/api/" }),
   endpoints: (buildQueries) => ({
     getArrangement: buildQueries.query({
       query: () => "Arrangement",
