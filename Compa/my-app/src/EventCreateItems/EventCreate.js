@@ -10,17 +10,17 @@ const EventCreate = () => {
   const handleCreateEvent = () => {
     navigate("/tabs");
   };
-  const { data, isLoading } = useGetArrangementQuery();
+  const { data: arr_data, isLoading, error } = useGetArrangementQuery();
   if (isLoading) {
     return <></>;
   }
+  if (error) {
+    return <></>;
+  }
+
+  console.log(arr_data);
   return (
     <div>
-      {/* <u1>
-        {data.map((item) => (
-          <l1 key={item.arragementId}>{item.title}</l1>
-        ))}
-      </u1> */}
       <button class="buttonClose" onClick={handleCreateEvent}>
         <svg
           width="30"
@@ -95,25 +95,25 @@ const EventCreate = () => {
         <p>Скрыть после</p>
         <input class="input_calendar" type="date" id="event_close_date"></input>
         <p>Видить могут только:</p>
-        <div className="custom-radio">
-          <label className="custom-label">
+        <div class="custom-radio">
+          <label class="custom-label">
             <input type="radio" name="gender" value="male" />
-            <span className="radio-circle"></span>
+            <span class="radio-circle"></span>
             мужчины
           </label>
-          <label className="custom-label">
+          <label class="custom-label">
             <input type="radio" name="gender" value="female" />
-            <span className="radio-circle"></span>
+            <span class="radio-circle"></span>
             женщины
           </label>
-          <label className="custom-label">
+          <label class="custom-label">
             <input type="radio" name="gender" value="female" id="gender" />
-            <span className="radio-circle"></span>
+            <span class="radio-circle"></span>
             все
           </label>
         </div>
         <p>Возраст:</p>
-        <div className="containerAge">
+        <div class="containerAge">
           <p>от</p>
           <input class="input_age" type="number" id="age1"></input>
           <p>до</p>
