@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-
-import EventList from "./Items/EventList/EventList";
+import ReactDOM from "react-dom";
 import Tabs from "./Items/Tabs/Tabs";
 import EventCreate from "./EventCreateItems/EventCreate";
 import AutorizationPage from "./Authorization/AutorizationPage";
@@ -12,14 +11,14 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Tabs />} />
-          <Route path="/event-create" element={<EventCreate />} />
-          <Route path="/tabs" element={<Tabs />} />
-          <Route path="/autorization" element={<AutorizationPage />} />
+          <Route path="/" element={<AutorizationPage />} />
+          <Route path="/Tabs" element={<Tabs />} />
+          <Route path="/Tabs/event-create" element={<EventCreate />} />
         </Routes>
       </Router>
     </div>
   );
 }
 
+ReactDOM.render(<App />, document.getElementById("root"));
 export default App;

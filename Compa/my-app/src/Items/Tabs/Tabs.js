@@ -39,7 +39,7 @@ const Tabs = () => {
         ))}
       </div>
       <div className="tab-content">
-        {activeTab === 2 && <AutorizationPage />}
+        {activeTab === 2}
         {activeTab === 1}
         {activeTab === 0 && <EventList />}
       </div>
