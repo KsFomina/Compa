@@ -109,19 +109,19 @@ const EventCreate = () => {
         <p>Скрыть после</p>
         <input class="input_calendar" type="date" id="event_close_date"></input>
         <p>Видить могут только:</p>
-        <div class="custom-radio">
-          <label class="custom-label">
-            <input type="radio" name="gender" value="male" />
+        <div class="custom-radio" >
+          <label class="custom-label" id="gender" >
+            <input type="radio" name="gender" value="1" />
             <span class="radio-circle"></span>
             мужчины
           </label>
           <label class="custom-label">
-            <input type="radio" name="gender" value="female" />
+            <input type="radio" name="gender" value="0" />
             <span class="radio-circle"></span>
             женщины
           </label>
           <label class="custom-label">
-            <input type="radio" name="gender" value="female" id="gender" />
+            <input type="radio" name="gender" value="2" />
             <span class="radio-circle"></span>
             все
           </label>
