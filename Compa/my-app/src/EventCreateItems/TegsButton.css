@@ -1,58 +1,81 @@
 .buttonTegs {
-    border-radius: 25px;
-    width: 130px;
-    height: 40px;
-    margin-right: 100%;
-    margin-top: -20px;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-    border: none;
-    background-color: #FF735C;
-    outline: none;
-    overflow: hidden;
-    margin-bottom: 10px;
-    
-    &:hover {
-        background-color:#f45a42;
-    }
-    
-    &:active {
-        background-color:#f45a42;
-    }
+  border-radius: 25px;
+  width: 130px;
+  height: 40px;
+  margin-right: 100%;
+  margin-top: -20px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  background-color: #ff735c;
+  outline: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+
+  &:hover {
+    background-color: #f45a42;
+  }
+
+  &:active {
+    background-color: #f45a42;
+  }
 }
 
-.dropdown-style{
-    width:130px;
-    height: 100x;
-    background-color: white;
-    z-index:1;
-    border-radius: 25px;
-    border: 2px solid #9978ee;
-    
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
+.dropdown-style {
+  width: 130px;
+  height: 100x;
+  background-color: white;
+  z-index: 1;
+  border-radius: 25px;
+  border: 2px solid #9978ee;
 
-    &:hover {
-        border-color:#f45a42;
-    }
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &:hover {
+    border-color: #f45a42;
+  }
 }
 
-.li-style{
-    padding: 10px;
-    cursor: pointer;
-    color: #9978ee;
-    position:flex;
-    justify-content: left;
-    margin-top: -5px;
+.li-style {
+  padding: 10px;
+  cursor: pointer;
+  color: #9978ee;
+  position: flex;
+  justify-content: left;
+  margin-top: -5px;
 
-    &:hover {
-        color:#f45a42;
-    }
+  &:hover {
+    color: #f45a42;
+  }
 }
-.ul-style{
-    list-style: none;
-   padding: 0;
-   margin: 0;
+.ul-style {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-select .ant-select-selector {
+  border-radius: 25px;
+  border-color: #ff735c !important; /* Чтобы переопределить стандартный стиль */
+  height: 40px;
+  margin-right: 100%;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.custom-select .ant-select-selector .ant-select-selection-item {
+  color: #f45a42; /* Цвет текста выбранного элемента */
+}
+
+.custom-select .ant-select-dropdown {
+  background-color: #ffffff; /* Цвет фона выпадающего списка */
+}
+
+.custom-select .ant-select-item-option-selected {
+  background-color: #f45a42; /* Цвет фона выбранной опции */
+  color: #9978ee; /* Цвет текста выбранной опции */
 }

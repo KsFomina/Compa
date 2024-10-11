@@ -8,7 +8,17 @@ export const CompaAPI = createApi({
     getArrangement: buildQueries.query({
       query: () => "Arrangement",
     }),
+    postArrangement: buildQueries.mutation({
+      query: (body) => ({
+        url: "Arrangement",
+        method: "POST",
+        body,
+      }),
+    }),
+    getTags: buildQueries.query({
+      query: () => "Tag",
+    }),
   }),
 });
 
-export const { useGetArrangementQuery } = CompaAPI;
+export const { useGetArrangementQuery, usePostArrangementMutation, useGetTagsQuery } = CompaAPI;

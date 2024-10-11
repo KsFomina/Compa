@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./EventCreate.css";
 import { useNavigate } from "react-router-dom";
-import { get_data } from "./get_data.js";
+import { Get_data } from "./get_data.js";
 import TegsButton from "./TegsButton.js";
-import { useGetArrangementQuery } from "../redux/Compa.WebAPI.js";
+import { useGetTagsQuery } from "../redux/Compa.WebAPI.js";
+import { Select } from "antd";
 
 const EventCreate = () => {
   const navigate = useNavigate();
   const handleCreateEvent = () => {
     navigate("/tabs");
   };
-  const { data: arr_data, isLoading, error } = useGetArrangementQuery();
+  const [tagId, setTagId] = useState();
+  const { data: tags, isLoading, error } = useGetTagsQuery();
   if (isLoading) {
     return <></>;
   }
@@ -18,7 +20,6 @@ const EventCreate = () => {
     return <></>;
   }
 
-  console.log(arr_data);
   return (
     <div>
       <button class="buttonClose" onClick={handleCreateEvent}>
@@ -67,7 +68,20 @@ const EventCreate = () => {
           id="event_description"
         ></textarea>
         <p>Теги</p>
-        <TegsButton />
+        <Select
+          className="custom-select"
+          style={{
+            width: "130px",
+            height: "40px",
+          }}
+          onChange={(tag) => {
+            setTagId(tag);
+          }}
+          options={tags?.tags.map((tag) => ({
+            value: tag.tagId,
+            label: tag.tagName,
+          }))}
+        />
         <input
           class="input_mini"
           type="text"
@@ -120,7 +134,7 @@ const EventCreate = () => {
           <input class="input_age" type="number" id="age2"></input>
         </div>
       </div>
-      <button class="buttonCreate" onClick={() => get_data()}>
+      <button class="buttonCreate" onClick={() => Get_data(tagId)}>
         <text class="textButton">создать</text>
       </button>
     </div>
