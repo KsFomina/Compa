@@ -20,5 +20,8 @@ namespace Compa.App.Entity.Arrangements.Commands.UpdateArragement
         public string StartTime { get; set; }
         public string EndTime { get; set; }
         public string Place { get; set; }
+        public string City { get; set; }
+        public int MaxMembers { get; set; }
+        public string Date { get; set; }
     }
 }

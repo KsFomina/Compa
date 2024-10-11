@@ -29,7 +29,10 @@ namespace Compa.App.Entity.Arrangements.Commands.CreateArrangement
                 startTime = request.StartTime,
                 endTime = request.EndTime,
                 place = request.Place,
+                city = request.City,
                 creatorId = request.CreatorId,
+                date = request.Date,
+                maxMembers = request.MaxMembers,
                 membersIds = new List<Guid>(),
 
             };

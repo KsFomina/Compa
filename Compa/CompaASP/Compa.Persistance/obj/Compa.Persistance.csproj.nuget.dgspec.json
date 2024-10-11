@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj": {}
+    "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj": {}
   },
   "projects": {
-    "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
+    "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+        "projectUniqueName": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
         "projectName": "Compa.App",
-        "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
-        "packagesPath": "C:\\Users\\Ксения\\.nuget\\packages\\",
-        "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\obj\\",
+        "projectPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ксения\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
-                "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj"
+              "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
+                "projectPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj"
               }
             }
           }
@@ -82,21 +82,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
+    "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+        "projectUniqueName": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
         "projectName": "Compa.Domain",
-        "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
-        "packagesPath": "C:\\Users\\Ксения\\.nuget\\packages\\",
-        "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
+        "projectPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ксения\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -142,21 +142,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj": {
+    "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
+        "projectUniqueName": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
         "projectName": "Compa.Persistance",
-        "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
-        "packagesPath": "C:\\Users\\Ксения\\.nuget\\packages\\",
-        "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\obj\\",
+        "projectPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ксения\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,8 +170,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
-                "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj"
+              "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
+                "projectPath": "D:\\Github\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj"
               }
             }
           }
@@ -216,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

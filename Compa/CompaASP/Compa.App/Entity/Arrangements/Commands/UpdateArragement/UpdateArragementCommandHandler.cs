@@ -40,6 +40,9 @@ namespace Compa.App.Entity.Arrangements.Commands.UpdateArragement
             entity.startTime = request.StartTime;
             entity.endTime = request.EndTime;
             entity.place = request.Place;
+            entity.city = request.City;
+            entity.maxMembers  = request.MaxMembers;
+            entity.date = request.Date; 
 
             await _arContext.SaveChangesAsync(cancellationToken);
 

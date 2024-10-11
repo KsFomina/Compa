@@ -14,10 +14,13 @@ namespace Compa.Domain
         public Gender gender { get; set; }
         public int minAge { get; set; }
         public int maxAge { get; set; }
+        public int maxMembers { get; set; }
         public Guid tag { get; set; }
         public string startTime { get; set; }
         public string endTime { get; set; }
+        public string date { get; set; }
         public string place { get; set; }
+        public string city { get; set; }
         public Guid creatorId { get; set; }
         public List<Guid> membersIds { get; set; }
        
