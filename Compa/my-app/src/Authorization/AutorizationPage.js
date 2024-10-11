@@ -19,8 +19,8 @@ const AutorizationPage = () => {
   };*/
   return (
     <div>
-      <p className="header-style">Вход</p>
       <form className="authorization-form" onSubmit={handleLogin}>
+        <p className="header-style">Вход</p>
         <div>
           <img className="img-style" />
         </div>
