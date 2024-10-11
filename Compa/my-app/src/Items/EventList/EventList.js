@@ -23,7 +23,7 @@ const EventList = () => {
           key={arr_data.arrangementId}
           name={arr_data.title}
           about={arr_data.description}
-          time={arr_data.startTime.slice(0, 10)}
+          time={arr_data.date.slice(0, 10)}
         />
       ))}
     </div>

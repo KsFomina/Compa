@@ -1,13 +1,8 @@
 import { usePostArrangementMutation } from "../redux/Compa.WebAPI.js";
+import React, { useState, useEffect } from "react";
 
-export function Get_data(tagId) {
-  const [postArrangement, { error, isLoading }] = usePostArrangementMutation();
-  if (isLoading) {
-    return <></>;
-  }
-  if (error) {
-    return <></>;
-  }
+const Get_data = async () => {
+  const [postArrangement] = usePostArrangementMutation();
   const event_name = document.getElementById("event_name");
   const event_description = document.getElementById("event_description");
   const event_city = document.getElementById("event_city");
@@ -17,13 +12,12 @@ export function Get_data(tagId) {
     event_name.value &&
     event_description.value &&
     event_city.value &&
-    count_people.value &&
-    tagId
+    count_people.value
   ) {
-    postArrangement({
+    await postArrangement({
       title: event_name,
       description: event_description,
-      tag: tagId,
+      tag: "00000000-0000-0000-0000-000000000000",
       city: event_city,
       maxMembers: document.getElementById("count_people"),
       date: document.getElementById("event_date"),
@@ -36,4 +30,6 @@ export function Get_data(tagId) {
       place: document.getElementById("event_place"),
     });
   }
-}
+};
+
+export default Get_data;

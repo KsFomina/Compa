@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "./EventCreate.css";
 import { useNavigate } from "react-router-dom";
-import { Get_data } from "./get_data.js";
+import Get_data from "./get_data.js";
 import TegsButton from "./TegsButton.js";
-import { useGetTagsQuery } from "../redux/Compa.WebAPI.js";
+import {
+  useGetTagsQuery,
+  usePostArrangementMutation,
+} from "../redux/Compa.WebAPI.js";
 import { Select } from "antd";
 
 const EventCreate = () => {
@@ -12,6 +15,38 @@ const EventCreate = () => {
     navigate("/tabs");
   };
   const [tagId, setTagId] = useState();
+  const [postArrangement] = usePostArrangementMutation();
+  const Get_data = async () => {
+    const event_name = document.getElementById("event_name");
+    const event_description = document.getElementById("event_description");
+    const event_city = document.getElementById("event_city");
+    const count_people = document.getElementById("count_people");
+
+    if (
+      event_name.value &&
+      event_description.value &&
+      event_city.value &&
+      count_people.value
+    ) {
+      await postArrangement({
+        title: event_name.value,
+        description: event_description.value,
+        tag: tagId,
+        city: event_city.value,
+        maxMembers: document.getElementById("count_people").value,
+        date: document.getElementById("event_date").value,
+        startTime: document.getElementById("event_time").value,
+        endTime: document.getElementById("event_close_date").value,
+        gender: document.getElementById("gender").value,
+        minAge: document.getElementById("age1").value,
+        maxAge: document.getElementById("age2").value,
+        creatorId: "00000000-0000-0000-0000-000000000000",
+        place: document.getElementById("event_place").value,
+      });
+    }
+    handleCreateEvent();
+  };
+
   const { data: tags, isLoading, error } = useGetTagsQuery();
   if (isLoading) {
     return <></>;
@@ -109,8 +144,8 @@ const EventCreate = () => {
         <p>Скрыть после</p>
         <input class="input_calendar" type="date" id="event_close_date"></input>
         <p>Видить могут только:</p>
-        <div class="custom-radio" >
-          <label class="custom-label" id="gender" >
+        <div class="custom-radio">
+          <label class="custom-label" id="gender">
             <input type="radio" name="gender" value="1" />
             <span class="radio-circle"></span>
             мужчины
@@ -134,7 +169,7 @@ const EventCreate = () => {
           <input class="input_age" type="number" id="age2"></input>
         </div>
       </div>
-      <button class="buttonCreate" onClick={() => Get_data(tagId)}>
+      <button class="buttonCreate" onClick={async () => await Get_data(tagId)}>
         <text class="textButton">создать</text>
       </button>
     </div>
