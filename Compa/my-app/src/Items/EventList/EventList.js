@@ -2,6 +2,7 @@ import React from "react";
 import EventCard from "../EventCard/EventCard";
 import SearchBar from "../SearchBar/SearchBar";
 import EventItem from "../../EventItem/EventItem";
+import TegsButton from "../../EventCreateItems/TegsButton";
 
 const EventList = () => {
   const event = [
