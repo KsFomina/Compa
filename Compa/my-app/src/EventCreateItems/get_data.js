@@ -24,7 +24,16 @@ export function Get_data(tagId) {
       title: event_name,
       description: event_description,
       tag: tagId,
-      event_city,
+      city: event_city,
+      maxMembers: document.getElementById("count_people"),
+      date: document.getElementById("event_date"),
+      startTime: document.getElementById("event_time"),
+      endTime: document.getElementById("event_close_date"),
+      gender: document.getElementById("gender"),
+      minAge: document.getElementById("age1"),
+      maxAge: document.getElementById("age2"),
+      creatorId: "00000000-0000-0000-0000-000000000000",
+      place: document.getElementById("event_place"),
     });
   }
 }
