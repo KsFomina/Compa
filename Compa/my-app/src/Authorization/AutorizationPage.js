@@ -8,7 +8,19 @@ const AutorizationPage = () => {
   const handleLogin = () => {
     navigate("/Tabs");
   };
-  const [putAutorization] = useAutorizationMutation();
+  const [putAutorization, data,isLoading,error] = useAutorizationMutation();
+  const Autorization =async()=>{
+    const login = document.getElementById("login").value;
+    const password=document.getElementById("password").value;
+    if (login && password){
+      await putAutorization({
+        login: login,
+        password: password,
+      })
+      console.log(data);
+    }
+
+  }
 
   /*const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
@@ -19,9 +31,15 @@ const AutorizationPage = () => {
     e.preventDefault();
     navigate();
   };*/
+  if (isLoading){
+    return <></>
+  }
+  if (error){
+
+  }
   return (
     <div>
-      <form className="authorization-form" onSubmit={handleLogin}>
+      <div className="authorization-form">
         <p className="header-style">Вход</p>
         <div>
           <img className="img-style" />
@@ -31,6 +49,7 @@ const AutorizationPage = () => {
           <input
             type="text"
             className="input-style"
+            id="login"
             /*onChange={(e) => setLogin(e.target.value)}
             required*/
           />
@@ -40,12 +59,14 @@ const AutorizationPage = () => {
           <input
             type="password"
             className="input-style"
+            id="password"
             /*onChange={(e) => setPassword(e.target.value)}
             required*/
           />
         </div>
-        <input type={"submit"} className="button-style" value="войти" />
-      </form>
+        <button className="button-style" onClick={async () => await Autorization()} />
+        {error? <div>dpoawfp </div>:<></>}
+      </div>
     </div>
   );
 };
