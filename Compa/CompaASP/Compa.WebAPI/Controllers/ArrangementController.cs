@@ -10,6 +10,7 @@ using Compa.App.Entity.Users.Commands.AddTag;
 using Compa.App.Entity.Users.Commands.CreateUser;
 using Compa.App.Entity.Users.Commands.DelTag;
 using Compa.App.Entity.Users.Commands.UpdateUser;
+using Compa.App.Entity.Users.Queries.GetUserByLogin;
 using Compa.App.Entity.Users.Queries.GetUserDetails;
 using Compa.App.Entity.Users.Queries.GetUserList;
 using Microsoft.AspNetCore.Mvc;

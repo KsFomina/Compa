@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
+using Compa.App.Entity.Arrangements.Queries.GetArragementDetails;
 using Compa.App.Entity.Users.Commands.AddTag;
 using Compa.App.Entity.Users.Commands.CreateUser;
 using Compa.App.Entity.Users.Commands.DelTag;
 using Compa.App.Entity.Users.Commands.DelUser;
 using Compa.App.Entity.Users.Commands.UpdateUser;
+using Compa.App.Entity.Users.Queries.GetUserByLogin;
 using Compa.App.Entity.Users.Queries.GetUserDetails;
 using Compa.App.Entity.Users.Queries.GetUserList;
 using Microsoft.AspNetCore.Mvc;
@@ -35,6 +37,13 @@ namespace Compa.WebAPI.Controllers
             };
             var vm = await Mediator.Send(query);
             return Ok(vm);
+        }
+        [HttpPut("Authorization")]
+        public async Task<ActionResult<GetUserByLoginVM>> GetLogin([FromBody] GetUserByLoginQuery body)
+        {
+            var command = _mapper.Map<GetUserByLoginQuery>(body);
+            var id = await Mediator.Send(command);
+            return Ok(id);
         }
         [HttpPost]
         public async Task<ActionResult<Guid>> Create([FromBody] CreateUserCommand body)
