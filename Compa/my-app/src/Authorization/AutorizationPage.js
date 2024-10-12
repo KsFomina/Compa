@@ -10,7 +10,7 @@ const AutorizationPage = () => {
   };
   const [login, setLogin] = useState();
   const [password, setPassword] = useState();
-  const [putAutorization, data,isLoading,error] = useAutorizationMutation();
+  const [putAutorization, data,isLoading, isError] = useAutorizationMutation();
   const Autorization =async()=>{
     // const login = document.getElementById("login").value;
     // const password=document.getElementById("password").value;
@@ -19,8 +19,11 @@ const AutorizationPage = () => {
       await putAutorization({
         login: login,
         password: password,
-      })
-      console.log(data);
+      }).then((res)=>{   
+        if (res.data){
+        navigate("/Tabs");
+      }})
+
     }
 
   }
@@ -37,8 +40,8 @@ const AutorizationPage = () => {
   if (isLoading){
     return <></>
   }
-  if (error){
-
+  if (isError){
+    console.log("Неверный логин или пароль");
   }
   return (
     <div>
@@ -67,9 +70,7 @@ const AutorizationPage = () => {
             //required
           />
         </div>
-        <button className="button-style" onClick={async () => await Autorization()}>Войти</button>
-        <button className="button-style" onClick={async () => await Autorization()} />
-        {error? <div>dpoawfp </div>:<></>}
+        <button className="button-style" onClick={async () => await Autorization()}>войти</button>        
       </div>
     </div>
   );

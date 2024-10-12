@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\grisa\\.nuget\\packages\\": {}
+    "C:\\Users\\slove\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+      "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
       "projectName": "Compa.Domain",
-      "projectPath": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
-      "packagesPath": "C:\\Users\\grisa\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
+      "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+      "packagesPath": "C:\\Users\\slove\\.nuget\\packages\\",
+      "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\grisa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\slove\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
