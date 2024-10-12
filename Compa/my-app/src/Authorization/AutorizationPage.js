@@ -8,10 +8,13 @@ const AutorizationPage = () => {
   const handleLogin = () => {
     navigate("/Tabs");
   };
+  const [login, setLogin] = useState();
+  const [password, setPassword] = useState();
   const [putAutorization, data,isLoading,error] = useAutorizationMutation();
   const Autorization =async()=>{
-    const login = document.getElementById("login").value;
-    const password=document.getElementById("password").value;
+    // const login = document.getElementById("login").value;
+    // const password=document.getElementById("password").value;
+    console.log(login, password)
     if (login && password){
       await putAutorization({
         login: login,
@@ -50,8 +53,8 @@ const AutorizationPage = () => {
             type="text"
             className="input-style"
             id="login"
-            /*onChange={(e) => setLogin(e.target.value)}
-            required*/
+            onChange={(e) => setLogin(e.target.value)}
+            //required
           />
         </div>
         <div>
@@ -60,10 +63,11 @@ const AutorizationPage = () => {
             type="password"
             className="input-style"
             id="password"
-            /*onChange={(e) => setPassword(e.target.value)}
-            required*/
+            onChange={(e) => setPassword(e.target.value)}
+            //required
           />
         </div>
+        <button className="button-style" onClick={async () => await Autorization()}>Войти</button>
         <button className="button-style" onClick={async () => await Autorization()} />
         {error? <div>dpoawfp </div>:<></>}
       </div>

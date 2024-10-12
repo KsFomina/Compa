@@ -20,7 +20,7 @@ export const CompaAPI = createApi({
     }),
     autorization: buildQueries.mutation({
       query: (body)=> ({
-      url: "User",
+      url: "User/Authorization",
       method: "PUT",
       body,
     })
