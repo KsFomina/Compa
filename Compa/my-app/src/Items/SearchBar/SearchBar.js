@@ -19,7 +19,7 @@ const SearchBar = () => {
     <div>
       <button className="button_style1">теги</button>
       <div className="search-style">
-        <form onSubmit={handleKeyPress} className="search-form">
+        <div onSubmit={handleKeyPress} className="search-form">
           <input
             className="search-input"
             type="text"
@@ -27,7 +27,7 @@ const SearchBar = () => {
             onChange={handleChange}
             placeholder="Поиск..."
           />
-        </form>
+        </div>
       </div>
     </div>
   );
