@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import "./AuthorizationPage.css";
 import { Navigate, useNavigate } from "react-router-dom";
+import {useAutorizationMutation} from "../redux/Compa.WebAPI"
 
 const AutorizationPage = () => {
   const navigate = useNavigate();
   const handleLogin = () => {
     navigate("/Tabs");
   };
+  const [putAutorization] = useAutorizationMutation();
 
   /*const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
