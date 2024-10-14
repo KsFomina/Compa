@@ -59,3 +59,13 @@
   color: #784fe8;
   margin: 0 20px 0 0;
 }
+
+.alert-style {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  color: #ff735c;
+}

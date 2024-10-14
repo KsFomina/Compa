@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./AuthorizationPage.css";
 import { Navigate, useNavigate } from "react-router-dom";
-import {useAutorizationMutation} from "../redux/Compa.WebAPI"
+import { useAutorizationMutation } from "../redux/Compa.WebAPI";
+import { Alert } from "antd";
 
 const AutorizationPage = () => {
   const navigate = useNavigate();
@@ -10,25 +11,27 @@ const AutorizationPage = () => {
   };
   const [login, setLogin] = useState();
   const [password, setPassword] = useState();
-  const [putAutorization, data,isLoading, isError] = useAutorizationMutation();
-  const Autorization =async()=>{
+  const [putAutorization, data, isLoading, isError] = useAutorizationMutation();
+  const [isError1, setError] = useState();
+  const Autorization = async () => {
     // const login = document.getElementById("login").value;
     // const password=document.getElementById("password").value;
-    console.log(login, password)
-    if (login && password){
+    console.log(login, password);
+    if (login && password) {
       await putAutorization({
         login: login,
         password: password,
-      }).then((res)=>{   
-        if (res.data){
+      }).then((res) => {
+        if (res.data) {
           localStorage.setItem("user", res.data);
-        console.log(res.data.userId);
-        navigate("/Tabs");
-      }})
-
+          console.log(res.data.userId);
+          navigate("/Tabs");
+        } else {
+          setError("Неверный логин или пароль");
+        }
+      });
     }
-
-  }
+  };
 
   /*const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
@@ -39,14 +42,22 @@ const AutorizationPage = () => {
     e.preventDefault();
     navigate();
   };*/
-  if (isLoading){
-    return <></>
+  if (isLoading) {
+    return <></>;
   }
-  if (isError){
+  if (isError) {
     console.log("Неверный логин или пароль");
   }
   return (
     <div>
+      {isError1 && (
+        <Alert
+          message="Неверный логин или пароль"
+          description={setError}
+          type="error"
+          //className="alert-style"
+        />
+      )}
       <div className="authorization-form">
         <p className="header-style">Вход</p>
         <div>
@@ -72,7 +83,12 @@ const AutorizationPage = () => {
             //required
           />
         </div>
-        <button className="button-style" onClick={async () => await Autorization()}>войти</button>        
+        <button
+          className="button-style"
+          onClick={async () => await Autorization()}
+        >
+          войти
+        </button>
       </div>
     </div>
   );

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {}
+    "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
+    "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
         "projectName": "Compa.Domain",
-        "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
-        "packagesPath": "C:\\Users\\slove\\.nuget\\packages\\",
-        "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
+        "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+        "packagesPath": "C:\\Users\\sarka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\slove\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

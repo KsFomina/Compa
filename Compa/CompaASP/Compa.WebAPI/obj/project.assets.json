@@ -1594,19 +1594,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\slove\\.nuget\\packages\\": {}
+    "C:\\Users\\sarka\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Compa.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Compa.WebAPI.csproj",
       "projectName": "Compa.WebAPI",
-      "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Compa.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\slove\\.nuget\\packages\\",
-      "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Compa.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\sarka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\slove\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1620,11 +1620,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
-              "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj"
+            "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
+              "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj"
             },
-            "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj": {
-              "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj"
+            "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj": {
+              "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Persistance\\Compa.Persistance.csproj"
             }
           }
         }
@@ -1684,7 +1684,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
