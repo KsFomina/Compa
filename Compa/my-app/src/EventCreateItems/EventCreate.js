@@ -28,6 +28,7 @@ const EventCreate = () => {
       event_city.value &&
       count_people.value
     ) {
+      console.log(sessionStorage.getItem("user"));
       await postArrangement({
         title: event_name.value,
         description: event_description.value,
@@ -40,8 +41,9 @@ const EventCreate = () => {
         gender: document.getElementById("gender").value,
         minAge: document.getElementById("age1").value,
         maxAge: document.getElementById("age2").value,
-        creatorId: "00000000-0000-0000-0000-000000000000",
+        creatorId: sessionStorage.getItem("user").userId,
         place: document.getElementById("event_place").value,
+        
       });
     }
     handleCreateEvent();

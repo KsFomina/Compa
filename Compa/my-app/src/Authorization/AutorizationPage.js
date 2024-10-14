@@ -21,6 +21,8 @@ const AutorizationPage = () => {
         password: password,
       }).then((res)=>{   
         if (res.data){
+          localStorage.setItem("user", res.data);
+        console.log(res.data.userId);
         navigate("/Tabs");
       }})
 
