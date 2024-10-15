@@ -1,89 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\",
+  "WorkspaceRootPath": "D:\\Compa\\Compa\\CompaASP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|d:\\compa\\compa\\compaasp\\compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|d:\\compa\\compa\\compaasp\\compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F92AAF-66D5-4C29-B72A-54EC5C27A4E6}|Compa.WebAPI\\Compa.WebAPI.csproj|solutionrelative:compa.webapi\\controllers\\arrangementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserdetails\\getuserdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\users\\queries\\getuserbylogin\\getuserbyloginquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\deluserfromarr\\deluserfromarrcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\deluserfromarr\\deluserfromarrcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\deluserfromarr\\deluserfromarrcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\deluserfromarr\\deluserfromarrcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\deluserfromarr\\deluserfromarrcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\deluserfromarr\\deluserfromarrcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.domain\\arrangement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|d:\\compa\\compa\\compaasp\\compa.domain\\arrangement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CC37428-4486-4FD5-A2B5-25715C1AC227}|Compa.Domain\\Compa.Domain.csproj|solutionrelative:compa.domain\\arrangement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\updatearragement\\updatearragementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\commands\\createarrangement\\createarrangementcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarrangementlist\\getarrangementlistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|c:\\users\\sarka\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|d:\\compa\\compa\\compaasp\\compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5751F46-362C-4129-BF6A-81BD0F13E17E}|Compa.App\\Compa.App.csproj|solutionrelative:compa.app\\entity\\arrangements\\queries\\getarragementdetails\\getarragementdetailsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -112,9 +112,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ArrangementController.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
               "RelativeDocumentMoniker": "Compa.WebAPI\\Controllers\\ArrangementController.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\ArrangementController.cs",
               "RelativeToolTip": "Compa.WebAPI\\Controllers\\ArrangementController.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAYwC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,9 +124,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "GetUserDetailsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQueryHandler.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQueryHandler.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQueryHandler.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQueryHandler.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -136,9 +136,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GetUserByLoginQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQueryHandler.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQueryHandler.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQueryHandler.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQueryHandler.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQueryHandler.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -148,9 +148,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GetUserDetailsVM.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsVM.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -160,9 +160,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GetUserByLoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginVM.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginVM.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginVM.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginVM.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginVM.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginVM.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,9 +173,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Compa.WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.WebAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Compa.WebAPI\\Controllers\\UserController.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAQwCkAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -185,9 +185,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GetUserDetailsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserDetails\\GetUserDetailsQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -197,9 +197,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "GetUserByLoginQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQuery.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQuery.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQuery.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQuery.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQuery.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Users\\Queries\\GetUserByLogin\\GetUserByLoginQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -209,9 +209,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "DelUserFromArrCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommandHandler.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommandHandler.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommandHandler.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommandHandler.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommandHandler.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -221,9 +221,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "DelUserFromArrCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommand.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommand.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommand.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommand.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommand.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\DelUserFromArr\\DelUserFromArrCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,9 +233,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "CreateArrangementCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommand.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -245,9 +245,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "CreateArrangementCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\CreateArrangement\\CreateArrangementCommandHandler.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -257,9 +257,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "UpdateArragementCommand.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -269,9 +269,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "UpdateArragementCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Commands\\UpdateArragement\\UpdateArragementCommandHandler.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwCwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -281,9 +281,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Arrangement.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Arrangement.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Arrangement.cs",
               "RelativeDocumentMoniker": "Compa.Domain\\Arrangement.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Arrangement.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Arrangement.cs",
               "RelativeToolTip": "Compa.Domain\\Arrangement.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAA5wBYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -293,9 +293,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "GetArragementDetailsVM.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsVM.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAcwCwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -305,9 +305,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "GetArrangementListDTO.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListDTO.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAcwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -317,9 +317,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "GetArrangementListQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListQuery.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListQuery.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListQuery.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListQuery.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListQuery.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,9 +329,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "GetArrangementListVM.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArrangementList\\GetArrangementListVM.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -341,9 +341,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "GetArragementDetailsQuery.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQuery.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQuery.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQuery.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQuery.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQuery.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQuery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -353,9 +353,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "GetArragementDetailsQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQueryHandler.cs",
+              "DocumentMoniker": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQueryHandler.cs",
               "RelativeDocumentMoniker": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQueryHandler.cs",
-              "ToolTip": "C:\\Users\\sarka\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQueryHandler.cs",
+              "ToolTip": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQueryHandler.cs",
               "RelativeToolTip": "Compa.App\\Entity\\Arrangements\\Queries\\GetArragementDetails\\GetArragementDetailsQueryHandler.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -369,11 +369,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

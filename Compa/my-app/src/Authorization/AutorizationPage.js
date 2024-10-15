@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import "./AuthorizationPage.css";
+import { useSelector, useDispatch } from "react-redux";
 import { Navigate, useNavigate } from "react-router-dom";
 import { useAutorizationMutation } from "../redux/Compa.WebAPI";
 import { Alert } from "antd";
+import { setUserId } from "../redux/userData";
 
 const AutorizationPage = () => {
   const navigate = useNavigate();
   const handleLogin = () => {
     navigate("/Tabs");
   };
+  const dispatch = useDispatch();
   const [login, setLogin] = useState();
   const [password, setPassword] = useState();
   const [putAutorization, data, isLoading, isError] = useAutorizationMutation();
@@ -25,6 +28,7 @@ const AutorizationPage = () => {
         if (res.data) {
           localStorage.setItem("user", res.data);
           console.log(res.data.userId);
+          dispatch(setUserId(res.data.userId));
           navigate("/Tabs");
         } else {
           setError("Неверный логин или пароль");
