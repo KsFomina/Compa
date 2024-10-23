@@ -21,6 +21,12 @@
     display: block;
 }
 
+.ev-image{
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+}
+
 .event-info h2 {
     margin-left: 19px;
     margin-bottom: 0px;
