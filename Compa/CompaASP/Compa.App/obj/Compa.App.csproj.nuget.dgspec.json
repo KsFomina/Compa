@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {}
+    "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {}
   },
   "projects": {
-    "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
+    "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+        "projectUniqueName": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
         "projectName": "Compa.App",
-        "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
-        "packagesPath": "C:\\Users\\Ксения\\.nuget\\packages\\",
-        "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.App\\obj\\",
+        "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\Compa.App.csproj",
+        "packagesPath": "C:\\Users\\sarka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ксения\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
-                "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj"
+              "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
+                "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj"
               }
             }
           }
@@ -86,17 +87,17 @@
         }
       }
     },
-    "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
+    "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
         "projectName": "Compa.Domain",
-        "projectPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
-        "packagesPath": "C:\\Users\\Ксения\\.nuget\\packages\\",
-        "outputPath": "D:\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
+        "projectPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\Compa.Domain.csproj",
+        "packagesPath": "C:\\Users\\sarka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sarka\\OneDrive\\Документы\\GitHub\\Compa\\Compa\\CompaASP\\Compa.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ксения\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sarka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,6 +105,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

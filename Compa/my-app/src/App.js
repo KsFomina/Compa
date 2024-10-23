@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import Tabs from "./Items/Tabs/Tabs";
 import EventCreate from "./EventCreateItems/EventCreate";
 import AutorizationPage from "./Authorization/AutorizationPage";
+import AboutPage from "./AboutPage/AboutPage.js";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<AutorizationPage />} />
           <Route path="/Tabs" element={<Tabs />} />
           <Route path="/eventCreate" element={<EventCreate />} />
+          <Route path="/aboutPage" element={<AboutPage />} />
         </Routes>
       </Router>
     </div>
