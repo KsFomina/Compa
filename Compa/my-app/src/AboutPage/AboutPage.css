@@ -106,8 +106,8 @@
 }
 
 .buttonParticipate {
-  display: block;
-  right: 0;
+  position: absolute;
+  right: 10px;
   bottom: 1%;
   border-radius: 25px;
   min-width: 130px;
@@ -117,6 +117,30 @@
   border: none;
   background-color: #ff735c;
   color: white;
+
+  &:hover {
+    background-color: #f45a42;
+  }
+
+  &:active {
+    background-color: #f45a42;
+  }
+}
+
+.buttonClose1 {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  top: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  background-color: #ff735c;
+  outline: none;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
 
   &:hover {
     background-color: #f45a42;

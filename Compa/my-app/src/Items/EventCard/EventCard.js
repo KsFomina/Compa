@@ -1,8 +1,9 @@
 import React from "react";
 import "./EventCard.css";
 import AboutPage from "../../AboutPage/AboutPage";
-import { Modal } from "antd";
+import { Modal, Button } from "antd";
 import { useNavigate } from "react-router-dom";
+const { useState } = React;
 
 const images = {
   "511e4cf1-d4d1-4578-adcc-d7c916589596": "кино.png",
@@ -14,41 +15,45 @@ const images = {
   "3fa85f64-5717-4562-b3fc-2c963f66afa6": "книги.png",
 };
 
-
 const EventCard = ({ name, tag, people, about, time }) => {
-  
   const navigate = useNavigate();
 
-  const [visible, setVisible] = React.useState(false);
-
-  const handleClick = () => {
-    //navigate(`/event/AboutPage`);
-    setVisible(true);
+  const [open, setOpen] = useState(false);
+  const showModal = () => {
+    setOpen(true);
   };
-  
+  const handleCancel = () => {
+    console.log("Curent State", open);
+    setOpen(false);
+  };
+
   const maxLength = 90;
   const about1 =
     about.length > maxLength ? about.slice(50, maxLength) + "..." : about;
-    console.log(tag);
+  console.log(tag);
   return (
-    
-    <div onClick={handleClick} className="event-card">
-      
-      
-      <div className="event-image">
-      <img src={`${images[tag]}`} class="ev-image" />
+    <>
+      <div onClick={showModal} className="event-card">
+        <div className="event-image">
+          <img src={`${images[tag]}`} class="ev-image" />
+        </div>
+        <div className="event-info">
+          <h2>{name}</h2>
+          <p>{about}</p>
+        </div>
+        <div className="content">
+          <label className="custom-label">{time}</label>
+        </div>
       </div>
-      <div className="event-info">
-        <h2>{name}</h2>
-        <p>{about}</p>
-      </div>
-      <div className="content">
-        <label className="custom-label">{time}</label>
-      </div>
-      <Modal visible={visible} onCancel={() => setVisible(false)} footer={null}>
-        <AboutPage name={name} about={about} time={time} />
+      <Modal open={open} onCancel={handleCancel} footer={null} closable={false}>
+        <AboutPage
+          name={name}
+          about={about}
+          time={time}
+          handleCancel={handleCancel}
+        />
       </Modal>
-    </div>
+    </>
   );
 };
 export default EventCard;
