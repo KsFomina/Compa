@@ -21,13 +21,14 @@
 }
 
 .imgUser-style {
-  width: 47%;
-  height: 30%;
-  margin: 10px 1px 10px 5px;
+  width: 220px;
+  height: 220px;
+  margin: 10px 1px 0px 5px;
   border-radius: 15px;
   display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
   left: 5px;
+  object-fit: cover;
 }

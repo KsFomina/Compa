@@ -3,7 +3,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  height: 130vh;
+  height: auto;
 }
 
 .profile-container {
@@ -13,13 +13,13 @@
 }
 
 .profile-image {
-  margin-top: 20px;
   width: 220px;
   min-width: 220px;
   height: 220px;
   border-radius: 50%;
   border: 2px solid #784fe8;
   object-fit: cover;
+  margin-top: -40px;
 }
 
 .h2-profile {
@@ -34,7 +34,7 @@
   padding: 15px 15px 15px 15px;
   background-color: #f7f0ff;
   border-radius: 25px;
-  margin-top: 20px;
+  position: relative;
 }
 
 .InfoAboutUser-profile {
@@ -46,10 +46,10 @@
   width: auto;
   height: 25px;
   padding: 15px 5px 15px 5px;
+  color: #373737;
 }
 
 .teg-profile {
-  margin-top: 10px;
   display: inline-block;
   border-radius: 25px;
   height: 25px;
@@ -58,12 +58,15 @@
   color: white;
   font-size: 16px;
   padding: 8px 30px 6px 30px;
+  white-space: nowrap;
 }
 .tegList-profile {
   list-style-type: none;
   display: flex;
   gap: 10px;
   padding-left: 0;
+  width: auto;
+  flex-wrap: wrap;
 }
 
 .MY-event {
@@ -76,4 +79,52 @@
   width: auto;
   height: 25px;
   padding: 15px 15px 15px 15px;
+}
+
+.img-chats {
+  width: 40px;
+  height: 40px;
+  right: 0%;
+  top: 8%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.block-style {
+  position: relative;
+  padding: 5px;
+  width: auto;
+  display: inline-block;
+  padding: 10px;
+}
+
+.tegs-plus {
+  display: inline-flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: #ff735c solid 2px;
+  background-color: white;
+  color: #ff735c;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 34%;
+}
+
+.tegs-plus input {
+  display: none;
+}
+
+.tegs-plus:hover {
+  border: #f45a42 solid 2px;
+}
+
+.block-style1 {
+  position: relative;
+  width: auto;
+  display: flex;
+  margin: 5px;
+  flex-wrap: wrap;
 }
