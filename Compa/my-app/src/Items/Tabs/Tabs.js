@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import EventList from "../EventList/EventList";
+import Profile from "../../Profile/Profile.js";
 import "./Tabs.css";
 import { useNavigate } from "react-router-dom";
 import AutorizationPage from "../../Authorization/AutorizationPage.js";
@@ -40,7 +41,7 @@ const Tabs = () => {
       </div>
       <div className="tab-content">
         {activeTab === 2}
-        {activeTab === 1}
+        {activeTab === 1 && <Profile />}
         {activeTab === 0 && <EventList />}
       </div>
       <div className="fixed-button-container">

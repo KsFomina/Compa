@@ -10,8 +10,8 @@ const SearchBar = () => {
 
   const handleKeyPress = (event) => {
     if (event.key === "Enter") {
-      event.preventDefault();
-      console.log = ("Поисковой запрос", query);
+      event.preventDefault(); // предотвращаем отправку формы, если эта логика применима
+      console.log("Поисковой запрос:", query); // Вызываем вашу функцию поиска
     }
   };
 
@@ -19,15 +19,16 @@ const SearchBar = () => {
     <div>
       <button className="button_style1">теги</button>
       <div className="search-style">
-        <form onSubmit={handleKeyPress} className="search-form">
+        <div className="search-form">
           <input
-            className="search-input"
+            className="input"
             type="text"
             value={query}
             onChange={handleChange}
+            onKeyDown={handleKeyPress}
             placeholder="Поиск..."
           />
-        </form>
+        </div>
       </div>
     </div>
   );

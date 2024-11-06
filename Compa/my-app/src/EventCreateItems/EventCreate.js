@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./EventCreate.css";
 import { useNavigate } from "react-router-dom";
 import Get_data from "./get_data.js";
+import { useSelector, useDispatch } from "react-redux";
+import { setUserId } from "../redux/userData";
 import TegsButton from "./TegsButton.js";
 import {
   useGetTagsQuery,
@@ -16,6 +18,9 @@ const EventCreate = () => {
   };
   const [tagId, setTagId] = useState();
   const [postArrangement] = usePostArrangementMutation();
+  const dispatch = useDispatch();
+  const userId = useSelector((state) => state.userData.userId);
+  dispatch(setUserId(userId));
   const Get_data = async () => {
     const event_name = document.getElementById("event_name");
     const event_description = document.getElementById("event_description");
@@ -40,7 +45,7 @@ const EventCreate = () => {
         gender: document.getElementById("gender").value,
         minAge: document.getElementById("age1").value,
         maxAge: document.getElementById("age2").value,
-        creatorId: "00000000-0000-0000-0000-000000000000",
+        creatorId: userId,
         place: document.getElementById("event_place").value,
       });
     }

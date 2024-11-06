@@ -18,7 +18,14 @@ export const CompaAPI = createApi({
     getTags: buildQueries.query({
       query: () => "Tag",
     }),
+    autorization: buildQueries.mutation({
+      query: (body)=> ({
+      url: "User/Authorization",
+      method: "PUT",
+      body,
+    })
+    })
   }),
 });
 
-export const { useGetArrangementQuery, usePostArrangementMutation, useGetTagsQuery } = CompaAPI;
+export const { useGetArrangementQuery, usePostArrangementMutation, useGetTagsQuery, useAutorizationMutation } = CompaAPI;

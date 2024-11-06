@@ -22,6 +22,7 @@ const EventList = () => {
         <EventCard
           key={arr_data.arrangementId}
           name={arr_data.title}
+          tag={arr_data.tag}
           about={arr_data.description}
           time={arr_data.date.slice(0, 10)}
         />
