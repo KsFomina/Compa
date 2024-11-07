@@ -3,11 +3,11 @@ import "./Profile.css";
 import PhotoGallery from "./PhotoGallery";
 
 const Profile = () => {
-  const data = ["tag1", "tag2", "tag3", "teg4"]; // Данные для тегов
+  const data = ["tag1", "tag2", "tag3", "teg4", "teg5", "teg6", "teg7"]; // Данные для тегов
 
   return (
     <>
-      <div className="container">
+      <div className="container1">
         <div className="profile-container">
           <img className="profile-image" />
           <div>
@@ -23,19 +23,17 @@ const Profile = () => {
             </div>
           </div>
 
-          <div className="block-style1">
-            <ul className="tegList-profile">
+          <div class="block-style1">
+            <ul class="tegList-profile">
               {data.map((item, index) => (
                 <li key={index}>
-                  <div className="teg-profile">{item}</div>
+                  <div class="teg-profile">{item}</div>
                 </li>
               ))}
+              <li class="teg-button">
+                <button class="tegs-plus">+</button>
+              </li>
             </ul>
-            <div>
-              <button className="tegs-plus">
-                <span>+</span>
-              </button>
-            </div>
           </div>
 
           <div className="MY-event">Мои события</div>

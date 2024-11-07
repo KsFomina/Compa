@@ -1,4 +1,4 @@
-.container {
+.container1 {
   display: flex;
   position: relative;
   justify-content: center;
@@ -60,7 +60,9 @@
   padding: 8px 30px 6px 30px;
   white-space: nowrap;
 }
+
 .tegList-profile {
+  display: inline-block;
   list-style-type: none;
   display: flex;
   gap: 10px;
@@ -99,18 +101,18 @@
 }
 
 .tegs-plus {
-  display: inline-flex;
-  align-items: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: #ff735c solid 2px;
+  border: 2px solid #ff735c;
   background-color: white;
   color: #ff735c;
   font-size: 24px;
   cursor: pointer;
-  position: absolute;
-  top: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
 }
 
 .tegs-plus input {
@@ -125,6 +127,4 @@
   position: relative;
   width: auto;
   display: flex;
-  margin: 5px;
-  flex-wrap: wrap;
 }
