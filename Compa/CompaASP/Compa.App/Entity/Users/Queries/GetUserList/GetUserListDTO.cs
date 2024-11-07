@@ -17,6 +17,7 @@ namespace Compa.App.Entity.Users.Queries.GetUserList
         public string Surname { get; set; }
         public int Age { get; set; }
         public Gender Gender { get; set; }
+        public List<byte> avatar { get; set; }
 
         public void Mapping(Profile profile)
         {
@@ -25,6 +26,7 @@ namespace Compa.App.Entity.Users.Queries.GetUserList
                 .ForMember(ent => ent.Name, opt => opt.MapFrom(obj => obj.name))
                 .ForMember(ent => ent.Surname, opt => opt.MapFrom(obj => obj.surname))
                 .ForMember(ent => ent.Age, opt => opt.MapFrom(obj => obj.age))
+                .ForMember(ent => ent.avatar, opt => opt.MapFrom(obj => obj.avatar))
                 .ForMember(ent => ent.Gender, opt => opt.MapFrom(obj => obj.gender));
         }
     }

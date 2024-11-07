@@ -20,6 +20,8 @@ namespace Compa.App.Entity.Users.Queries.GetUserByLogin
         public List<Guid> TagList { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
+        public List<List<byte>> photos { get; set; }
+        public List<byte> avatar { get; set; }
 
         public void Mapping(Profile profile)
         {
@@ -31,6 +33,8 @@ namespace Compa.App.Entity.Users.Queries.GetUserByLogin
                 .ForMember(ent => ent.Gender, opt => opt.MapFrom(obj => obj.gender))
                 .ForMember(ent => ent.TagList, opt => opt.MapFrom(obj => obj.tagList))
                 .ForMember(ent => ent.Login, opt => opt.MapFrom(obj => obj.login))
+                //.ForMember(ent => ent.photos, opt => opt.MapFrom(obj => obj.photos))
+                .ForMember(ent => ent.avatar, opt => opt.MapFrom(obj => obj.avatar))
                 .ForMember(ent => ent.Password, opt => opt.MapFrom(obj => obj.password));
 
         }
