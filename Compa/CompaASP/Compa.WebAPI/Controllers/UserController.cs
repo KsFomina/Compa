@@ -4,6 +4,7 @@ using Compa.App.Entity.Users.Commands.AddTag;
 using Compa.App.Entity.Users.Commands.CreateUser;
 using Compa.App.Entity.Users.Commands.DelTag;
 using Compa.App.Entity.Users.Commands.DelUser;
+using Compa.App.Entity.Users.Commands.SetNewUserAvatar;
 using Compa.App.Entity.Users.Commands.UpdateUser;
 using Compa.App.Entity.Users.Queries.GetUserByLogin;
 using Compa.App.Entity.Users.Queries.GetUserDetails;
@@ -42,6 +43,13 @@ namespace Compa.WebAPI.Controllers
         public async Task<ActionResult<GetUserByLoginVM>> GetLogin([FromBody] GetUserByLoginQuery body)
         {
             var command = _mapper.Map<GetUserByLoginQuery>(body);
+            var id = await Mediator.Send(command);
+            return Ok(id);
+        }
+        [HttpPut("ChangeAvatar")]
+        public async Task<ActionResult<SetNewUserAvatarCommand>> ChangeAvatar([FromBody] SetNewUserAvatarCommand body)
+        {
+            var command = _mapper.Map<SetNewUserAvatarCommand>(body);
             var id = await Mediator.Send(command);
             return Ok(id);
         }
