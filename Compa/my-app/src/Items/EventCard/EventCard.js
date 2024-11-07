@@ -24,7 +24,8 @@ const EventCard = ({ name,
   createrId,
   city,
   place,
-  time
+  time,
+  idArr,
  }) => {
   const navigate = useNavigate();
 
@@ -33,14 +34,12 @@ const EventCard = ({ name,
     setOpen(true);
   };
   const handleCancel = () => {
-    console.log("Curent State", open);
     setOpen(false);
   };
 
   const maxLength = 90;
   const about1 =
     about.length > maxLength ? about.slice(50, maxLength) + "..." : about;
-  console.log(tag);
   return (
     <>
       <div onClick={showModal} className="event-card">
@@ -68,6 +67,7 @@ const EventCard = ({ name,
           city={city}
           place={place}
           time={time}
+          idArr={idArr}
           handleCancel={handleCancel}
         />
       </Modal>

@@ -19,7 +19,6 @@ const AutorizationPage = () => {
   const Autorization = async () => {
     // const login = document.getElementById("login").value;
     // const password=document.getElementById("password").value;
-    console.log(login, password);
     if (login && password) {
       await putAutorization({
         login: login,
@@ -27,7 +26,6 @@ const AutorizationPage = () => {
       }).then((res) => {
         if (res.data) {
           localStorage.setItem("user", res.data);
-          console.log(res.data.userId);
           dispatch(setUserId(res.data.userId));
           navigate("/Tabs");
         } else {

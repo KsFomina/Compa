@@ -1,6 +1,12 @@
 import React from "react";
 import "./AboutPage.css";
-import { useGetUserQuery, useGetTagQuery } from ".././redux/Compa.WebAPI";
+import {
+  useGetUserQuery,
+  useGetTagQuery,
+  useAddUserOnArrMutation,
+} from ".././redux/Compa.WebAPI";
+import { useSelector, useDispatch } from "react-redux";
+import { setUserId } from "../redux/userData";
 
 const AboutPage = ({
   name,
@@ -14,16 +20,30 @@ const AboutPage = ({
   city,
   place,
   time,
+  idArr,
   handleCancel,
 }) => {
+  const dispatch = useDispatch();
+  const user = useSelector((state) => state.userData.userId);
+  dispatch(setUserId(user));
+
   const { data: creater, isLoading, error } = useGetUserQuery(createrId);
-  const {data: tag, isLoading1, error1} = useGetTagQuery(tagId);
+  const { data: tag, isLoading1, error1 } = useGetTagQuery(tagId);
+  const [postArrangement] = useAddUserOnArrMutation();
   if (isLoading || isLoading1) {
     return <></>;
   }
-  if (error ||error1) {
+  if (error || error1) {
     return <></>;
   }
+
+  const AddUser = async () => {
+    await postArrangement({
+      arrangementId: idArr,
+      userId: user,
+    });
+  };
+
   return (
     <div>
       <button onClick={handleCancel} className="buttonClose1">
@@ -67,12 +87,14 @@ const AboutPage = ({
         </div>
         <div className="about-div2">
           <div className="about-p2">Организатор:</div>
-          <div className="about-p21">{creater.name} {" "} {creater.surname}</div>
+          <div className="about-p21">
+            {creater?.name} {creater.surname}
+          </div>
         </div>
 
         <p className="about-p3">{about}</p>
 
-        <div className="teg-about"> {tag.tagName} </div>
+        <div className="teg-about"> {tag?.tagName} </div>
         <div className="time-style1">
           <div className="about-img">
             <img src="/Group 45.jpg" alt="время" className="images" />
@@ -84,11 +106,15 @@ const AboutPage = ({
           </div>
           <div className="about-img">
             <img src="/Group 76.jpg" alt="место" className="images" />
-            <div>{city} {", "} {place}</div>
+            <div>
+              {city} {", "} {place}
+            </div>
           </div>
         </div>
       </div>
-      <button className="buttonParticipate">участвовать</button>
+      <button className="buttonParticipate" onClick={async () => {await AddUser();}}>
+        участвовать
+      </button>
     </div>
   );
 };

@@ -28,11 +28,17 @@ export const CompaAPI = createApi({
 
     getUser: buildQueries.query({
       query: (id) => `User/${id}`,
-      
     }),
     getTag: buildQueries.query({
       query: (id) => `Tag/${id}`,
-      
+    }),
+
+    addUserOnArr: buildQueries.mutation({
+      query: (body) => ({
+        url: "Arrangement/AddUser",
+        method: "POST",
+        body,
+      }),
     }),
   }),
 });
@@ -44,4 +50,5 @@ export const {
   useAutorizationMutation,
   useGetUserQuery,
   useGetTagQuery,
+  useAddUserOnArrMutation,
 } = CompaAPI;
