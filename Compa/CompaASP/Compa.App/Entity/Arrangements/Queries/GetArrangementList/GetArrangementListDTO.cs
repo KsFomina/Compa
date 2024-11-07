@@ -26,6 +26,7 @@ namespace Compa.App.Entity.Arrangements.Queries.GetArrangementList
         public string place { get; set; }
         public string city { get; set; }
         public Guid creatorId { get; set; }
+        public List<Guid> membersIds { get; set; }
 
         public void Mapping(Profile profile)
         {
@@ -43,6 +44,7 @@ namespace Compa.App.Entity.Arrangements.Queries.GetArrangementList
                 .ForMember(ent => ent.creatorId, opt => opt.MapFrom(obj => obj.creatorId))
                 .ForMember(ent => ent.date, opt => opt.MapFrom(obj => obj.date))
                 .ForMember(ent => ent.city, opt => opt.MapFrom(obj => obj.city))
+                .ForMember(ent => ent.membersIds, opt => opt.MapFrom(obj => obj.membersIds))
                 .ForMember(ent => ent.maxMembers, opt => opt.MapFrom(obj => obj.maxMembers));
          
 
