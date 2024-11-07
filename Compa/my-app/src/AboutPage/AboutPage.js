@@ -1,7 +1,29 @@
 import React from "react";
 import "./AboutPage.css";
+import { useGetUserQuery, useGetTagQuery } from ".././redux/Compa.WebAPI";
 
-const AboutPage = ({ name, about, time, handleCancel }) => {
+const AboutPage = ({
+  name,
+  about,
+  date,
+  maxPeople,
+  people,
+  image,
+  createrId,
+  tagId,
+  city,
+  place,
+  time,
+  handleCancel,
+}) => {
+  const { data: creater, isLoading, error } = useGetUserQuery(createrId);
+  const {data: tag, isLoading1, error1} = useGetTagQuery(tagId);
+  if (isLoading || isLoading1) {
+    return <></>;
+  }
+  if (error ||error1) {
+    return <></>;
+  }
   return (
     <div>
       <button onClick={handleCancel} className="buttonClose1">
@@ -35,32 +57,34 @@ const AboutPage = ({ name, about, time, handleCancel }) => {
         </svg>
       </button>
       <div className="about-style">
-        <img className="about-image" />
+        <img className="about-image" src={image} />
         <h2 className="h2-style1">{name}</h2>
         <div className="about-div1">
           <div className="about-p1">Участников:</div>{" "}
-          <div className="about-p11">{}</div>
+          <div className="about-p11">{people}</div>
+          <div className="about-p11">/</div>
+          <div className="about-p11">{maxPeople}</div>
         </div>
         <div className="about-div2">
           <div className="about-p2">Организатор:</div>
-          <div className="about-p21">{}</div>
+          <div className="about-p21">{creater.name} {" "} {creater.surname}</div>
         </div>
 
         <p className="about-p3">{about}</p>
 
-        <div className="teg-about"> tegs </div>
+        <div className="teg-about"> {tag.tagName} </div>
         <div className="time-style1">
           <div className="about-img">
             <img src="/Group 45.jpg" alt="время" className="images" />
-            <div>{time}</div>
+            <div>{date}</div>
           </div>
           <div className="about-img">
             <img src="/Group 78.jpg" alt="время" className="images" />
-            <div>time</div>
+            <div>{time}</div>
           </div>
           <div className="about-img">
             <img src="/Group 76.jpg" alt="место" className="images" />
-            <div>place</div>
+            <div>{city} {", "} {place}</div>
           </div>
         </div>
       </div>

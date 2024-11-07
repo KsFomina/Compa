@@ -16,7 +16,7 @@ const EventList = () => {
   return (
     <div>
       <div>
-        <SearchBar />
+        <SearchBar/>
       </div>
       {arr_data?.arrangements.map((arr_data, index) => (
         <EventCard
@@ -24,7 +24,13 @@ const EventList = () => {
           name={arr_data.title}
           tag={arr_data.tag}
           about={arr_data.description}
-          time={arr_data.date.slice(0, 10)}
+          date={arr_data.date.slice(0, 10)}
+          maxPeople ={arr_data.maxMembers}
+          people={arr_data.membersIds}
+          createrId= {arr_data.creatorId}
+          city={arr_data.city}
+          place={arr_data.place}
+          time={arr_data.startTime}
         />
       ))}
     </div>
