@@ -15,7 +15,17 @@ const images = {
   "3fa85f64-5717-4562-b3fc-2c963f66afa6": "книги.png",
 };
 
-const EventCard = ({ name, tag, people, about, time }) => {
+const EventCard = ({ name, 
+  tag, 
+  people, 
+  maxPeople, 
+  about, 
+  date, 
+  createrId,
+  city,
+  place,
+  time
+ }) => {
   const navigate = useNavigate();
 
   const [open, setOpen] = useState(false);
@@ -49,6 +59,14 @@ const EventCard = ({ name, tag, people, about, time }) => {
         <AboutPage
           name={name}
           about={about}
+          date={date}
+          maxPeople={maxPeople}
+          people={people.length}
+          image={`${images[tag]}`}
+          createrId={createrId}
+          tagId={tag}
+          city={city}
+          place={place}
           time={time}
           handleCancel={handleCancel}
         />
