@@ -1,18 +1,36 @@
 import React from "react";
 import "./Profile.css";
 import PhotoGallery from "./PhotoGallery";
+import TagName from "./TagName";  
+import {
+  useGetUserQuery,
+} from ".././redux/Compa.WebAPI";
+import { useSelector, useDispatch } from "react-redux";
+import { setUserId } from "../redux/userData";
 
 const Profile = () => {
-  const data = ["tag1", "tag2", "tag3", "teg4", "teg5", "teg6", "teg7"]; // Данные для тегов
+  const data1 = ["tag1", "tag2", "tag3", "teg4", "teg5", "teg6", "teg7"]; // Данные для тегов
 
+  const dispatch = useDispatch();
+  const userId = useSelector((state) => state.userData.userId);
+  dispatch(setUserId(userId));
+  console.log(userId);
+  const {data: user, isLoading, error}=useGetUserQuery(userId);
+  if (isLoading) {
+    return <></>;
+  }
+  if (error) {
+    return <></>;
+  }
+  console.log(user)
   return (
     <>
       <div className="container1">
         <div className="profile-container">
-          <img className="profile-image" />
+          <img className="profile-image"/>
           <div>
             <div className="block-style">
-              <h2 className="h2-profile">user name</h2>
+              <h2 className="h2-profile"> {user?.name} {user?.surname}</h2>
               <img src="/Group 7.png" className="img-chats" />
             </div>
             <div>
@@ -22,12 +40,11 @@ const Profile = () => {
               </div>
             </div>
           </div>
-
           <div class="block-style1">
             <ul class="tegList-profile">
-              {data.map((item, index) => (
+              {user?.tagList?.map((item, index) => (
                 <li key={index}>
-                  <div class="teg-profile">{item}</div>
+                  <TagName tagId={item} />
                 </li>
               ))}
               <li class="teg-button">
