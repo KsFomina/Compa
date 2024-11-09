@@ -15,6 +15,7 @@ namespace Compa.App.Entity.Users.Queries.GetUserByLogin
         public Guid UserId { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
+        public string Description { get; set; }
         public int Age { get; set; }
         public Gender Gender { get; set; }
         public List<Guid> TagList { get; set; }
@@ -35,6 +36,7 @@ namespace Compa.App.Entity.Users.Queries.GetUserByLogin
                 .ForMember(ent => ent.Login, opt => opt.MapFrom(obj => obj.login))
                 //.ForMember(ent => ent.photos, opt => opt.MapFrom(obj => obj.photos))
                 .ForMember(ent => ent.avatar, opt => opt.MapFrom(obj => obj.avatar))
+                .ForMember(ent => ent.Description, opt => opt.MapFrom(obj => obj.description))
                 .ForMember(ent => ent.Password, opt => opt.MapFrom(obj => obj.password));
 
         }

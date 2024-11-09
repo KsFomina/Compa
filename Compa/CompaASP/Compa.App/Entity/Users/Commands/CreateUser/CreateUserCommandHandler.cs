@@ -28,6 +28,7 @@ namespace Compa.App.Entity.Users.Commands.CreateUser
                 userId = Guid.NewGuid(),
                 name = request.Name,
                 surname = request.Surname,
+                description = request.Description,
                 age = request.Age,
                 gender = request.Gender,
                 tagList = request.TagList,
