@@ -46,6 +46,7 @@ namespace Compa.App.Entity.Arrangements.Commands.DelUser
             }
 
             arrEntity.membersIds.Remove(userEntity.userId);
+            userEntity.arrangementsIds.Remove(arrEntity.arrangementId);
 
             await _arrangementDbContext.SaveChangesAsync(cancellationToken);
 

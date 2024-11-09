@@ -49,6 +49,7 @@ namespace Compa.App.Entity.Arrangements.Commands.AddUser
             }
 
             arrEntity.membersIds.Add(userEntity.userId);
+            userEntity.arrangementsIds.Add(arrEntity.arrangementId);
 
             await _arrangementDbContext.SaveChangesAsync(cancellationToken);
 

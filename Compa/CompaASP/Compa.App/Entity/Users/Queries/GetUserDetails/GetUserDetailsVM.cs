@@ -21,6 +21,7 @@ namespace Compa.App.Entity.Users.Queries.GetUserDetails
         public string Password { get; set; }
         public List<List<byte>> photos { get; set; }
         public List<byte> avatar { get; set; }
+        public List<Guid> arrangementsIds { get; set; }
 
         public void Mapping(Profile profile)
         {
@@ -34,6 +35,7 @@ namespace Compa.App.Entity.Users.Queries.GetUserDetails
                 .ForMember(ent => ent.Login, opt => opt.MapFrom(obj => obj.login))
                 //.ForMember(ent => ent.photos, opt => opt.MapFrom(obj => obj.photos))
                 .ForMember(ent => ent.avatar, opt => opt.MapFrom(obj => obj.avatar))
+                .ForMember(ent => ent.arrangementsIds, opt => opt.MapFrom(obj => obj.arrangementsIds))
                 .ForMember(ent => ent.Password, opt => opt.MapFrom(obj => obj.password));
 
         }

@@ -16,8 +16,7 @@ namespace Compa.Domain
         public List<Guid> tagList { get; set; }
         public string login { get; set; }
         public string password { get; set; }
-        //public List<List<byte>> photos { get; set; }
         public List<byte> avatar { get; set; }
-
+        public List<Guid> arrangementsIds { get; set; }
     }
 }
