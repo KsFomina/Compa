@@ -40,6 +40,10 @@ export const CompaAPI = createApi({
         body,
       }),
     }),
+
+    getArrangementId: buildQueries.query({
+      query: (id)=>`Arrangement/${id}`,
+    }),
   }),
 });
 
@@ -51,4 +55,5 @@ export const {
   useGetUserQuery,
   useGetTagQuery,
   useAddUserOnArrMutation,
+  useGetArrangementIdQuery,
 } = CompaAPI;
