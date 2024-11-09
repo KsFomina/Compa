@@ -96,7 +96,7 @@
   display: flex;
   justify-content: left;
   align-items: left;
-  margin: 10px 0 0 0;
+  margin: 4px 0 0 0;
 }
 
 .images {
@@ -117,6 +117,7 @@
   border: none;
   background-color: #ff735c;
   color: white;
+  margin-top: -10px;
 
   &:hover {
     background-color: #f45a42;
@@ -149,4 +150,8 @@
   &:active {
     background-color: #f45a42;
   }
+}
+
+.space_button {
+  margin-top: 40px;
 }

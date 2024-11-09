@@ -79,3 +79,6 @@
   background-color: #f45a42; /* Цвет фона выбранной опции */
   color: #9978ee; /* Цвет текста выбранной опции */
 }
+.custom-select .ant-select-arrow {
+  display: none; /* Скрыть стрелку */
+}

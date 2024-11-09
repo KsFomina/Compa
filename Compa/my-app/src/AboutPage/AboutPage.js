@@ -112,9 +112,16 @@ const AboutPage = ({
           </div>
         </div>
       </div>
-      <button className="buttonParticipate" onClick={async () => {await AddUser();}}>
-        участвовать
-      </button>
+      <div className="space_button">
+        <button
+          className="buttonParticipate"
+          onClick={async () => {
+            await AddUser();
+          }}
+        >
+          участвовать
+        </button>
+      </div>
     </div>
   );
 };
