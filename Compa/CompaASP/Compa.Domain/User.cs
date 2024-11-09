@@ -11,12 +11,13 @@ namespace Compa.Domain
         public Guid userId { get; set; }
         public string name { get; set; }
         public string surname { get; set; }
+        public string description { get; set; }
         public int age { get; set; }
         public Gender gender { get; set; }
         public List<Guid> tagList { get; set; }
         public string login { get; set; }
         public string password { get; set; }
-        public List<byte> avatar { get; set; }
+        public byte[] avatar { get; set; }
         public List<Guid> arrangementsIds { get; set; }
     }
 }

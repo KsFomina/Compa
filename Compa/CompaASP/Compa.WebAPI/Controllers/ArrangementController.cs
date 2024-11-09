@@ -6,6 +6,7 @@ using Compa.App.Entity.Arrangements.Commands.DelUser;
 using Compa.App.Entity.Arrangements.Commands.UpdateArragement;
 using Compa.App.Entity.Arrangements.Queries.GetArragementDetails;
 using Compa.App.Entity.Arrangements.Queries.GetArrangementList;
+using Compa.App.Entity.Arrangements.Queries.GetArrangementsByCreator;
 using Compa.App.Entity.Users.Commands.AddTag;
 using Compa.App.Entity.Users.Commands.CreateUser;
 using Compa.App.Entity.Users.Commands.DelTag;
@@ -40,6 +41,16 @@ namespace Compa.WebAPI.Controllers
             var query = new GetArragementDetailsQuery
             {
                 ArragementId = id
+            };
+            var vm = await Mediator.Send(query);
+            return Ok(vm);
+        }
+        [HttpGet("ByCreator{id}")]
+        public async Task<ActionResult<GetArrangementsByCreatorQuery>> GetByCreator(Guid id)
+        {
+            var query = new GetArrangementsByCreatorQuery
+            {
+                CreatorId = id
             };
             var vm = await Mediator.Send(query);
             return Ok(vm);

@@ -37,6 +37,7 @@ namespace Compa.App.Entity.Users.Commands.UpdateUser
             }
 
             entity.name = request.Name;
+            entity.description = request.Description;
             entity.surname = request.Surname;
             entity.age = request.Age;
             entity.gender = request.Gender;
