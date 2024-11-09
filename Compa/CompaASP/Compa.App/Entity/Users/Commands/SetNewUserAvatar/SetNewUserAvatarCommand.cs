@@ -10,6 +10,6 @@ namespace Compa.App.Entity.Users.Commands.SetNewUserAvatar
     public class SetNewUserAvatarCommand: IRequest
     {
         public Guid userId { get; set; }
-        public List<byte> avatar { get; set; }
+        public byte[] avatar { get; set; }
     }
 }

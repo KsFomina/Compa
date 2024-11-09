@@ -34,7 +34,7 @@ namespace Compa.App.Entity.Users.Commands.CreateUser
                 login = request.Login,
                 password = request.Password,
                 //photos = new List<List<byte>>(),
-                avatar = new List<byte>(),
+                avatar = new byte[256],
 
             };
             await userDbContext.users.AddAsync(user, cancellationToken);
