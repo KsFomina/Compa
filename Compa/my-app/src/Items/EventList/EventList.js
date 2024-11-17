@@ -11,7 +11,7 @@ const EventList = () => {
   const { data: arr_data, isLoading, error } = useGetArrangementQuery();
   const { data: tags } = useGetTagsQuery();
   const [query, setQuery] = useState("");
-  const [selectedTag, setSelectedTag] = useState(null);
+  const [selectedTag, setSelectedTag] = useState([]);
 
   const handleChange = (event) => {
     setQuery(event.target.value.toLowerCase());
@@ -25,7 +25,14 @@ const EventList = () => {
   };
 
   const handleTagChange = (value) => {
-    setSelectedTag(value);
+    setSelectedTag((prevSelectedTags) => {
+      if (prevSelectedTags.includes(value)) {
+        // Если тег уже выбран, удаляем его
+        return prevSelectedTags.filter((tag) => tag !== value);
+      } else {
+        return [...prevSelectedTags, value];
+      }
+    });
   };
 
   let filteredEvents = [];
@@ -33,8 +40,14 @@ const EventList = () => {
   if (arr_data && Array.isArray(arr_data.arrangements)) {
     filteredEvents = arr_data.arrangements.filter((event) => {
       const eventTags = Array.isArray(event.tag) ? event.tag : [event.tag];
-      const matchesTag = selectedTag ? eventTags.includes(selectedTag) : true;
-      return matchesTag;
+      if (selectedTag.length === 0) {
+        return true;
+      }
+      const matchesTags =
+        selectedTag.length > 0
+          ? selectedTag.some((tag) => event.tag.includes(tag))
+          : true;
+      return matchesTags;
     });
   }
 
