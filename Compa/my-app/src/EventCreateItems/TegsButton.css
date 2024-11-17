@@ -61,14 +61,12 @@
   border-radius: 25px;
   border-color: #ff735c !important; /* Чтобы переопределить стандартный стиль */
   height: 40px;
-  margin-right: 100%;
-  margin-left: 10px;
-  margin-top: -20px;
-  margin-bottom: 10px;
+  background-color: #ff735c !important;
 }
 
 .custom-select .ant-select-selector .ant-select-selection-item {
-  color: #f45a42; /* Цвет текста выбранного элемента */
+  color: white; /* Цвет текста выбранного элемента */
+  font-weight: bold; /* Толщина текста */
 }
 
 .custom-select .ant-select-dropdown {
@@ -79,6 +77,8 @@
   background-color: #f45a42; /* Цвет фона выбранной опции */
   color: #9978ee; /* Цвет текста выбранной опции */
 }
-.custom-select .ant-select-arrow {
-  display: none; /* Скрыть стрелку */
+
+.custom-select .ant-select-selector input::placeholder {
+  color: white; /* Цвет текста */
+  font-weight: bold; /* Жирный шрифт */
 }

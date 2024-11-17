@@ -47,3 +47,41 @@
   width: 100px;
   height: 100px;
 }
+
+@media (max-width: 400px) {
+  .tab-menu {
+    flex-direction: column;
+    font-size: 18px;
+    padding: 5px 0;
+  }
+
+  .tab-tab {
+    padding: 8px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .tab-content {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .fixed-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+
+  .fixed-button-container {
+    right: 10px;
+    bottom: 10px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .rect {
+    width: 80px;
+    height: 80px;
+  }
+}

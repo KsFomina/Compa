@@ -5,6 +5,7 @@ import {
   useGetTagsQuery,
 } from "../../redux/Compa.WebAPI";
 import { Select } from "antd";
+import "./EventList.css";
 
 const EventList = () => {
   const { data: arr_data, isLoading, error } = useGetArrangementQuery();
@@ -24,7 +25,6 @@ const EventList = () => {
   };
 
   const handleTagChange = (value) => {
-    console.log("Выбранный тег:", value);
     setSelectedTag(value);
   };
 
@@ -36,11 +36,10 @@ const EventList = () => {
       const matchesTag = selectedTag ? eventTags.includes(selectedTag) : true;
       return matchesTag;
     });
-    console.log("События тегам:", filteredEvents);
   }
 
   if (isLoading) {
-    return <div>Загрузка...</div>;
+    return <div></div>;
   }
   if (error) {
     return <div>Ошибка загрузки данных.</div>;
@@ -48,19 +47,21 @@ const EventList = () => {
 
   return (
     <div>
-      <Select
-        className="button_style1"
-        style={{
-          width: "130px",
-          height: "40px",
-        }}
-        onChange={handleTagChange}
-        options={tags?.tags.map((tag) => ({
-          value: tag.tagId,
-          label: tag.tagName,
-        }))}
-      />
       <div className="search-style">
+        <Select
+          className="custom-select"
+          placeholder="Теги"
+          style={{
+            width: "130px",
+            height: "35px",
+            marginRight: "5px",
+          }}
+          onChange={handleTagChange}
+          options={tags?.tags.map((tag) => ({
+            value: tag.tagId,
+            label: tag.tagName,
+          }))}
+        />
         <input
           className="input"
           type="text"

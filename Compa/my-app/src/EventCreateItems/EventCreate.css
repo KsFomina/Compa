@@ -209,3 +209,58 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media (max-width: 600px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 10%;
+    gap: 5px; /* Уменьшенное расстояние между элементами */
+  }
+
+  .input_mini,
+  .input_age,
+  .input_maxi,
+  .input_calendar {
+    height: 50px;
+    padding-right: 10px;
+  }
+
+  .input_age {
+    max-width: 40px;
+    margin-left: 5px;
+  }
+
+  .input_maxi {
+    height: 120px;
+  }
+
+  input,
+  textarea {
+    font-size: 14px;
+  }
+
+  p {
+    padding-left: 10px;
+  }
+
+  .buttonCreate {
+    min-width: 100px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+
+  .textButton {
+    font-size: 14px;
+  }
+
+  .radio-circle {
+    width: 15px;
+    height: 15px;
+  }
+
+  .custom-label {
+    font-size: 14px;
+  }
+}
