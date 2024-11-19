@@ -7,10 +7,10 @@ import {
 } from ".././redux/Compa.WebAPI";
 import { useSelector, useDispatch } from "react-redux";
 import { setUserId } from "../redux/userData";
+import MyEvents from "./MyEvents";
 
 const Profile = () => {
-  const data1 = ["tag1", "tag2", "tag3", "teg4", "teg5", "teg6", "teg7"]; // Данные для тегов
-
+  
   const dispatch = useDispatch();
   const userId = useSelector((state) => state.userData.userId);
   dispatch(setUserId(userId));
@@ -35,8 +35,7 @@ const Profile = () => {
             </div>
             <div>
               <div className="InfoAboutUser-profile">
-                information about user information about user information about
-                user information about user
+                {user?.description}
               </div>
             </div>
           </div>
@@ -54,7 +53,11 @@ const Profile = () => {
           </div>
 
           <div className="MY-event">Мои события</div>
-          <div>events events</div>
+          <div>
+            {user?.arrangementsIds.map((item, index) => (
+                  <MyEvents EventId={item} />
+                  ))}
+          </div>
           <div>
             <PhotoGallery />
           </div>
