@@ -60,8 +60,12 @@
 .custom-select .ant-select-selector {
   border-radius: 25px;
   border-color: #ff735c !important; /* Чтобы переопределить стандартный стиль */
-  height: 40px;
+  height: auto;
+  width: auto;
+  min-width: 130px;
+  max-width: 380px;
   background-color: #ff735c !important;
+  position: absolute;
 }
 
 .custom-select .ant-select-selector .ant-select-selection-item {
