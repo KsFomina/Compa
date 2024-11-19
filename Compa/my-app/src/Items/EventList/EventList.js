@@ -14,40 +14,48 @@ const EventList = () => {
   const [selectedTag, setSelectedTag] = useState([]);
 
   const handleChange = (event) => {
-    setQuery(event.target.value.toLowerCase());
+    setQuery(event.target.value);
   };
 
   const handleKeyPress = (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
-      console.log("Поисковой запрос:", query);
     }
   };
 
   const handleTagChange = (value) => {
-    setSelectedTag((prevSelectedTags) => {
-      if (prevSelectedTags.includes(value)) {
-        // Если тег уже выбран, удаляем его
-        return prevSelectedTags.filter((tag) => tag !== value);
-      } else {
-        return [...prevSelectedTags, value];
-      }
-    });
+    setSelectedTag(value);
   };
 
   let filteredEvents = [];
 
   if (arr_data && Array.isArray(arr_data.arrangements)) {
     filteredEvents = arr_data.arrangements.filter((event) => {
-      const eventTags = Array.isArray(event.tag) ? event.tag : [event.tag];
+      const titleMatches =
+        query.trim() === "" ||
+        event.title.toLowerCase().includes(query.trim().toLowerCase());
+
+      const aboutMatches =
+        query.trim() === "" ||
+        event.description.toLowerCase().includes(query.trim().toLowerCase());
+
       if (selectedTag.length === 0) {
-        return true;
+        return titleMatches || aboutMatches;
       }
+      if (titleMatches.length === 0 || aboutMatches.length === 0) {
+        return selectedTag;
+      }
+
+      const eventTags = Array.isArray(event.tag) ? event.tag : [event.tag];
+
       const matchesTags =
         selectedTag.length > 0
-          ? selectedTag.some((tag) => event.tag.includes(tag))
+          ? selectedTag.some((selectedTagId) =>
+              eventTags.includes(selectedTagId)
+            )
           : true;
-      return matchesTags;
+
+      return (titleMatches || aboutMatches) && matchesTags;
     });
   }
 
@@ -60,34 +68,38 @@ const EventList = () => {
 
   return (
     <div>
-      <div className="search-style">
-        <Select
-          className="custom-select"
-          placeholder="Теги"
-          style={{
-            width: "130px",
-            height: "35px",
-            marginRight: "5px",
-          }}
-          onChange={handleTagChange}
-          options={tags?.tags.map((tag) => ({
-            value: tag.tagId,
-            label: tag.tagName,
-          }))}
-        />
-        <input
-          className="input"
-          type="text"
-          value={query}
-          onChange={handleChange}
-          onKeyDown={handleKeyPress}
-          placeholder="Поиск..."
-        />
+      <div className="aaaaa">
+        <div>
+          <Select
+            className="custom-select"
+            placeholder="Теги"
+            style={{
+              width: "auto",
+              minWidth: "130px",
+              height: "35px",
+              marginRight: "5px",
+            }}
+            onChange={handleTagChange}
+            options={tags?.tags.map((tag) => ({
+              value: tag.tagId,
+              label: tag.tagName,
+            }))}
+            mode="multiple"
+          />
+          <input
+            className="input"
+            type="text"
+            value={query}
+            onChange={handleChange}
+            onKeyDown={handleKeyPress}
+            placeholder="Поиск..."
+          />
+        </div>
       </div>
+
       <div className="events-list">
         {filteredEvents.length > 0 ? (
           filteredEvents.map((event) => {
-            console.log("Событие для отображения:", event);
             return (
               <EventCard
                 key={event.arrangementId}

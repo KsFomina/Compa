@@ -1,25 +1,30 @@
-.search-style {
+.aaaaa {
+  min-height: 50px;
   display: flex;
   justify-content: right;
-  align-items: right;
-  height: 35px;
-  margin: 10px 40px 10px 10px;
+  align-items: center;
+  position: initial;
 }
 
-.search-form {
-  display: flex;
+.search-container {
+  display: inline-flex;
+  gap: 10px;
 }
 
 .input {
-  padding: 10px;
-  font-size: 16px;
+  padding: 8px;
+  font-size: 14px;
   border: 1px solid #784fe8;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px;
   outline: none;
 
   &:focus {
     font-size: 16px;
     border-color: #ff735c;
-    padding-left: 20px;
+    padding-left: 15px;
   }
+}
+
+.events-list {
+  margin: 20px;
 }
