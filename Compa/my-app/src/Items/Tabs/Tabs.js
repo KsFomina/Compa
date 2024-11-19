@@ -4,7 +4,7 @@ import Profile from "../../Profile/Profile.js";
 import "./Tabs.css";
 import { useNavigate } from "react-router-dom";
 import AutorizationPage from "../../Authorization/AutorizationPage.js";
-import { useSwipeable } from "react-swipeable";
+
 const tabs = ["События", "Профиль", "Чаты"];
 
 const Tabs = () => {
@@ -13,15 +13,7 @@ const Tabs = () => {
   const handleCreateEvent = () => {
     navigate("/eventCreate");
   };
-
-  const swipeHandlers = useSwipeable({
-    onSwipedLeft: () => {
-      setActiveTab((prev) => (prev + 1 >= tabs.length ? 0 : prev + 1)); // Переход к следующей вкладке
-    },
-    onSwipedRight: () => {
-      setActiveTab((prev) => (prev - 1 < 0 ? tabs.length - 1 : prev - 1)); // Переход к предыдущей вкладке
-    },
-  });
+  const [cl, setCl] = useState();
 
   return (
     <div className="tab-style">
@@ -40,9 +32,7 @@ const Tabs = () => {
           </div>
         ))}
       </div>
-      <div {...swipeHandlers} className="tab-content">
-        {" "}
-        {/* Передача обработчиков свайпов */}
+      <div className="tab-content">
         {activeTab === 2}
         {activeTab === 1 && <Profile />}
         {activeTab === 0 && <EventList />}
