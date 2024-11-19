@@ -85,6 +85,7 @@ const EventList = () => {
               label: tag.tagName,
             }))}
             mode="multiple"
+            maxTagCount={0}
           />
           <input
             className="input"

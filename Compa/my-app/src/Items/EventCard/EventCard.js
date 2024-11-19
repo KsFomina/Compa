@@ -15,18 +15,19 @@ const images = {
   "3fa85f64-5717-4562-b3fc-2c963f66afa6": "книги.png",
 };
 
-const EventCard = ({ name, 
-  tag, 
-  people, 
-  maxPeople, 
-  about, 
-  date, 
+const EventCard = ({
+  name,
+  tag,
+  people,
+  maxPeople,
+  about,
+  date,
   createrId,
   city,
   place,
   time,
   idArr,
- }) => {
+}) => {
   const navigate = useNavigate();
 
   const [open, setOpen] = useState(false);
@@ -51,7 +52,7 @@ const EventCard = ({ name,
           <p>{about}</p>
         </div>
         <div className="content">
-          <label className="custom-label">{time}</label>
+          <label className="custom-label">{date}</label>
         </div>
       </div>
       <Modal open={open} onCancel={handleCancel} footer={null} closable={false}>

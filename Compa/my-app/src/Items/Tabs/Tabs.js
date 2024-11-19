@@ -4,7 +4,7 @@ import Profile from "../../Profile/Profile.js";
 import "./Tabs.css";
 import { useNavigate } from "react-router-dom";
 import AutorizationPage from "../../Authorization/AutorizationPage.js";
-
+import { useSwipeable } from "react-swipeable";
 const tabs = ["События", "Профиль", "Чаты"];
 
 const Tabs = () => {
@@ -13,15 +13,16 @@ const Tabs = () => {
   const handleCreateEvent = () => {
     navigate("/eventCreate");
   };
-  const [cl, setCl] = useState();
 
-  useEffect(() => {
-    fetch(
-      "https://localhost:7208/api/Arrangement/eeaf8464-aa93-41de-8f19-c7d5e69e4936"
-    ).then((response) => response.json().then((data) => setCl(data)));
-  }, []);
-  // console.log(cl?.arrangements[0]?.title);
-  console.log(cl);
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: () => {
+      setActiveTab((prev) => (prev + 1 >= tabs.length ? 0 : prev + 1)); // Переход к следующей вкладке
+    },
+    onSwipedRight: () => {
+      setActiveTab((prev) => (prev - 1 < 0 ? tabs.length - 1 : prev - 1)); // Переход к предыдущей вкладке
+    },
+  });
+
   return (
     <div className="tab-style">
       <div className="tab-menu">
@@ -39,7 +40,9 @@ const Tabs = () => {
           </div>
         ))}
       </div>
-      <div className="tab-content">
+      <div {...swipeHandlers} className="tab-content">
+        {" "}
+        {/* Передача обработчиков свайпов */}
         {activeTab === 2}
         {activeTab === 1 && <Profile />}
         {activeTab === 0 && <EventList />}

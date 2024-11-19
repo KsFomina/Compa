@@ -1,6 +1,7 @@
 .tab-style {
   display: flex;
   flex-direction: column;
+  position: relative;
   height: 10vh;
 }
 
