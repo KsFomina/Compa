@@ -113,6 +113,10 @@ const EventCreate = () => {
           style={{
             width: "130px",
             height: "40px",
+            marginRight: "100%",
+            marginLeft: "10px",
+            marginTop: "-20px",
+            marginBottom: "10px",
           }}
           onChange={(tag) => {
             setTagId(tag);

@@ -1,80 +1,81 @@
 .event-card {
-    display: flex;
-    align-items: center;
-    background-color: #f9f9f9;
-    border: 2px solid #784fe8;
-    border-radius: 45px;
-    padding: 10px;
-    margin: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 2px solid #784fe8;
+  border-radius: 45px;
+  padding: 13px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
 .event-image {
-    width: 90px;
-    min-width: 90px;
-    height: 90px; 
-    border-radius: 50%; 
-    border: 2px solid #784fe8;
-    top: 30%;
-    position: relative;
-    display: block;
+  width: 90px;
+  min-width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #784fe8;
+  top: 30%;
+  position: relative;
+  display: block;
 }
 
-.ev-image{
-    width: 100%; 
-    height: auto;
-    object-fit: cover;
+.ev-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .event-info h2 {
-    margin-left: 19px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 25px;
-    text-align: left;
-    color:#784fe8
+  margin-left: 19px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 25px;
+  text-align: left;
+  color: #784fe8;
 }
 
 .event-info p {
-    flex-grow: 1;
-    margin: 0;  
-    color: #555555;
-    text-align: left;
-    font-size: 60%;
-    margin: 4px;
+  flex-grow: 1;
+  margin: 0;
+  color: #555555;
+  text-align: left;
+  font-size: 60%;
+  margin: 4px;
 }
 
-.custom-label{
-    color: #9978ee;
-    font-size: 50%;
-    margin: 5px;
+.custom-label {
+  color: #9978ee;
+  font-size: 50%;
+  margin-top: 1px;
+  margin-right: 20px;
 }
 
-.content{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-right: 3%; 
-    margin: 5px;
+.content {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 3%;
+  margin: 5px;
 }
 
 /* Медиа-запрос для мобильных устройств */
 @media (max-width: 600px) {
-    .user-card {
-        flex-direction: column; /* Меняем направление на колонку */
-        align-items: flex-start; /* Выравнивание по левому краю */
-    }
-    
-    .user-image {
-        margin-bottom: 10px; /* Отступ снизу для изображения */
-    }
+  .user-card {
+    flex-direction: column; /* Меняем направление на колонку */
+    align-items: flex-start; /* Выравнивание по левому краю */
+  }
 
-    .user-info h2 {
-        font-size: 1.1em; /* Уменьшение размера заголовка */
-    }
-    
-    .user-info p {
-        font-size: 0.9em; /* Уменьшение размера текста */
-    }
+  .user-image {
+    margin-bottom: 10px; /* Отступ снизу для изображения */
+  }
+
+  .user-info h2 {
+    font-size: 1.1em; /* Уменьшение размера заголовка */
+  }
+
+  .user-info p {
+    font-size: 0.9em; /* Уменьшение размера текста */
+  }
 }
