@@ -23,10 +23,13 @@ Compa – приложение, которое объединяет людей �
 - Архитектура:
 ![Model-View-Controller (MVC)](https://img.shields.io/badge/MVC-005C84.svg?style=for-the-badge&logo=filepattern&logoColor=white)
 
-| - | - |
+| Окно приложения | Скриншот |
 |-|-|
-| **Окно авторизации** <br><br> <img src="https://github.com/user-attachments/assets/d6c8e607-5845-4b15-a344-09a86656cde9" width="230" height="500"> | **Окно просмотра ленты событий** <br><br> <img src="https://github.com/user-attachments/assets/5e0c5262-a009-48dd-b2f3-38e6cf0589e1" width="230" height="350"> | **Окно просмотра подробной информации о событии** <br><br> <img src="https://github.com/user-attachments/assets/1d7f49dd-fd6a-472f-8787-ae85e7158b39" width="230" height="250"> |
-| **Профиль пользователя** <br><br> <img src="https://github.com/user-attachments/assets/5811f9ee-9c83-4f3f-ac4e-a586d466cf08" width="220" height="400"> | **Создание нового события** <br><br> <img src="https://github.com/user-attachments/assets/a4600727-7dbc-4e3d-bff3-91022ccccf37" width="200" height="370"> |
+| **Окно авторизации** | <img src="https://github.com/user-attachments/assets/d6c8e607-5845-4b15-a344-09a86656cde9" width="230" height="500"> |
+|**Окно просмотра ленты событий** |<img src="https://github.com/user-attachments/assets/5e0c5262-a009-48dd-b2f3-38e6cf0589e1" width="230" height="350"> | 
+|**Окно просмотра подробной информации о событии**| <img src="https://github.com/user-attachments/assets/1d7f49dd-fd6a-472f-8787-ae85e7158b39" width="230" height="250"> |
+| **Профиль пользователя** | <img src="https://github.com/user-attachments/assets/5811f9ee-9c83-4f3f-ac4e-a586d466cf08" width="220" height="400"> | 
+|**Создание нового события** | <img src="https://github.com/user-attachments/assets/a4600727-7dbc-4e3d-bff3-91022ccccf37" width="200" height="370"> |
 
 
 
